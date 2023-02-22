@@ -38,9 +38,9 @@ App backend is using relational batabase postgreSQL, and is working by default o
 ### **songs**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ✖
-title | varchar | ✖
-genre | varchar | ✖
+id  | primary key | ✘
+title | varchar | ✘
+genre | varchar | ✘
 productionyear | varchar(30) | ✖
 image | varchar | ✔
 video | varchar | ✔
