@@ -1,7 +1,25 @@
-# Music service
-
+# Music service 🎶
+Music service react app is an application where you can store and browse your favourite tracks! It allows user to add, manage, and connect songs and authors of His/Hers choice.
 
 # Frontend
+## Views
+- Home
+
+![home](https://github.com/Ave44/Portfolio/images/ReactMusicApp/Home.png)
+
+- Song list
+- Song details
+- Song edit
+- Song asign authors
+- Musicians list
+- Musician details
+- Musician edit
+- Adding view
+- Song add
+- Musician add
+
+App styles are written entierly in scss, and every view is responsive.
+
 ## Dependencies
 - react *^18.2.0*
 - react-dom *^18.2.0*
@@ -22,7 +40,7 @@
 - @testing-library/user-event   *^14.4.3*
 
 # Backend
-App backend is using relational batabase postgreSQL, and is working by default on port *5000*. All database connection parameters can be specified with *.env* file.
+App backend is using relational batabase **postgreSQL**, and is working by default on port *5000*. All database connection parameters can be specified with *.env* file.
 
 ## Dependencies
 - cors *^2.8.5*,
@@ -31,14 +49,24 @@ App backend is using relational batabase postgreSQL, and is working by default o
 - pg *^8.7.1*
 
 ## Setup
-1. After cloning repository run `npm i`
-2. Setup postgreSQL database on your local machine or as Docker container with `docker run --name React_Music_Service_DB -p 5432:5432 -e POSTGRES_PASSWORD=projekt -e POSTGRES_USER=postgres -d postgres`
+1. After cloning repository run `npm i` in *backend* directory
+2. Setup postgreSQL database on your local machine or in Docker container with `docker run --name React_Music_Service_DB -p 5432:5432 -e POSTGRES_PASSWORD=projekt -e POSTGRES_USER=postgres -d postgres`
+3. Optionally create *.env* file to change default data
+```
+HOST = '127.0.0.1',
+PORT = 5432,
+DATABASE = 'postgres',
+USER = 'postgres',
+PASSWORD = 'projekt'
+BACKEND_PORT = 5000
+```
+4. Run `node index.js`
 
 ## Tables
 ### **songs**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ❌
+id  | serial | ❌
 title | varchar | ❌
 genre | varchar | ❌
 productionyear | varchar(30) | ❌
@@ -48,7 +76,7 @@ video | varchar | ✔️
 ### **musicians**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ❌
+id  | serial | ❌
 name | varchar | ❌
 country | varchar(20) | ❌
 year | varchar | ❌
@@ -57,7 +85,7 @@ image | varchar | ✔️️
 ### **connections**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ❌
+id  | serial | ❌
 songId | int | ❌
 musicianId | int | ❌
 
