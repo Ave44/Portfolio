@@ -38,28 +38,28 @@ App backend is using relational batabase postgreSQL, and is working by default o
 ### **songs**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ✘
-title | varchar | ✘
-genre | varchar | ✘
-productionyear | varchar(30) | ✖
+id  | primary key | ❌
+title | varchar | ❌
+genre | varchar | ❌
+productionyear | varchar(30) | ❌
 image | varchar | ✔
 video | varchar | ✔
 
 ### **musicians**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ✖
-name | varchar | ✖
-country | varchar(20) | ✖
-year | varchar | ✖
-image | varchar | ✔
+id  | primary key | ❌
+name | varchar | ❌
+country | varchar(20) | ❌
+year | varchar | ❌
+image | varchar | ✔✔️
 
 ### **connections**
 column name | data type | null?
 --- | --- | ---
-id  | primary key | ✖
-songId | int | ✖
-musicianId | int | ✖
+id  | primary key | ❌
+songId | int | ❌
+musicianId | int | ❌
 
 ## Routes
 - GET
