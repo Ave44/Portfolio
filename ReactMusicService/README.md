@@ -16,7 +16,8 @@ Music service react app is an application where you can store and browse your fa
 App is fully translated into two languages, English and Russian.
 App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
 
-## Dependencies <a id="Dependencies-Frontend"></a>
+<h2 id="Dependencies-Frontend">Dependencies</h2>
+
 - react *^18.2.0*
 - react-dom *^18.2.0*
 - react-router-dom *^6.8.1*
