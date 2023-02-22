@@ -16,7 +16,7 @@ Music service react app is an application where you can store and browse your fa
 App is fully translated into two languages, English and Russian.
 App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
 
-## Dependencies <a name="Dependencies-Frontend"></a>
+## Dependencies <a id="Dependencies-Frontend"></a>
 - react *^18.2.0*
 - react-dom *^18.2.0*
 - react-router-dom *^6.8.1*
@@ -35,7 +35,7 @@ App styles are written entierly in scss, and every view is responsive with plent
 - @testing-library/react *^14.0.0*
 - @testing-library/user-event   *^14.4.3*
 
-## Setup <a name="Setup-Frontend"></a>
+## Setup <a id="Setup-Frontend"></a>
 1. After cloning repository run `npm i` in *frontend* directory
 2. Make sure that your backend is working correctly ([see there](#Setup-Backend))
 3. Run `npm start`
@@ -67,13 +67,13 @@ App styles are written entierly in scss, and every view is responsive with plent
 # Backend
 App backend is using relational batabase **postgreSQL**, and is working by default on port *5000*. All database connection parameters can be specified with *.env* file.
 
-## Dependencies <a name="Dependencies-Backend"></a>
+## Dependencies <a id="Dependencies-Backend"></a>
 - cors *^2.8.5*,
 - dotenv *^16.0.3*,
 - express *^4.17.2*,
 - pg *^8.7.1*
 
-## Setup <a name="Setup-Backend"></a>
+## Setup <a id="Setup-Backend"></a>
 1. After cloning repository run `npm i` in *backend* directory
 2. Setup postgreSQL database on your local machine or in Docker container with `docker run --name React_Music_Service_DB -p 5432:5432 -e POSTGRES_PASSWORD=projekt -e POSTGRES_USER=postgres -d postgres`
 3. Optionally create *.env* file to change default data
