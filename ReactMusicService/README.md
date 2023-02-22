@@ -42,8 +42,8 @@ id  | primary key | ❌
 title | varchar | ❌
 genre | varchar | ❌
 productionyear | varchar(30) | ❌
-image | varchar | ✔
-video | varchar | ✔
+image | varchar | ✔️
+video | varchar | ✔️
 
 ### **musicians**
 column name | data type | null?
@@ -52,7 +52,7 @@ id  | primary key | ❌
 name | varchar | ❌
 country | varchar(20) | ❌
 year | varchar | ❌
-image | varchar | ✔✔️
+image | varchar | ✔️️
 
 ### **connections**
 column name | data type | null?
@@ -62,18 +62,18 @@ songId | int | ❌
 musicianId | int | ❌
 
 ## Routes
-- GET
+- **GET**
   - `/songs` - return all songs from database
   - `/musicians` - return all musicians from database
   - `/connections` - return all connections between songs and musicians from database
-- POST
+- **POST**
   - `/songs` - add new song from request body
   - `/songs/edit/:id` - edit song with specified id
   - `/songs/:songId/:authorId` - asign author with specified id to song with specified id
   - `/musicians` - add new musician from request body
   - `/musicians/edit/:id` - edit musician with specified id
   - `/connections` - add new connection from request body
-- DELETE
+- **DELETE**
   - `/songs/:id` - delete song with specified id
   - `/musicians/:id` - delete musician with specified id
   - `/connections/:id` - delete connection with specified id
