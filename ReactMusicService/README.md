@@ -5,7 +5,7 @@ Music service react app is an application where you can store and browse your fa
 ## Views
 - Home
 
-![home](https://github.com/Ave44/Portfolio/images/ReactMusicApp/Home.png)
+![home](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Home.png?raw=true)
 
 - Song list
 - Song details
