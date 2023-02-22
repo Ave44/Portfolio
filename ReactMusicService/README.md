@@ -7,27 +7,27 @@ App styles are written entierly in scss, and every view is responsive with plent
 
 ## Views
 - Home
-![Home](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Home.png?raw=true)
+![Home](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Home.png?raw=true)
 - Song list
-![SongList](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongList.png?raw=true)
+![SongList](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongList.png?raw=true)
 - Song details
-![SongDetails](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongDetails.png?raw=true)
+![SongDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongDetails.png?raw=true)
 - Song edit
-![SongEdit](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongEdit.png?raw=true)
+![SongEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongEdit.png?raw=true)
 - Song asign authors
-![AsignAuthors](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AsignAuthors.png?raw=true)
+![AsignAuthors](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AsignAuthors.png?raw=true)
 - Musicians list
-![Musicians](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Musicians.png?raw=true)
+![Musicians](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Musicians.png?raw=true)
 - Musician details
-![MusicianDetails](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/MusicianDetails.png?raw=true)
+![MusicianDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianDetails.png?raw=true)
 - Musician edit
-![MusicianEdit](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/MusicianEdit.png?raw=true)
+![MusicianEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianEdit.png?raw=true)
 - Adding view
-![Add](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Add.png?raw=true)
+![Add](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Add.png?raw=true)
 - Song add
-![AddSong](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AddSong.png?raw=true)
+![AddSong](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddSong.png?raw=true)
 - Musician add
-![AddMusician](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AddMusician.png?raw=true)
+![AddMusician](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddMusician.png?raw=true)
 
 
 
