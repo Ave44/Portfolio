@@ -2,23 +2,34 @@
 Music service react app is an application where you can store and browse your favourite tracks! It allows user to add, manage, and connect songs and authors of His/Hers choice.
 
 # Frontend
+App is fully translated into two languages, English and Russian.
+App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
+
 ## Views
 - Home
-
-![home](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Home.png?raw=true)
-
+![Home](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Home.png?raw=true)
 - Song list
+![SongList](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongList.png?raw=true)
 - Song details
+![SongDetails](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongDetails.png?raw=true)
 - Song edit
+![SongEdit](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/SongEdit.png?raw=true)
 - Song asign authors
+![AsignAuthors](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AsignAuthors.png?raw=true)
 - Musicians list
+![Musicians](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Musicians.png?raw=true)
 - Musician details
+![MusicianDetails](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/MusicianDetails.png?raw=true)
 - Musician edit
+![MusicianEdit](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/MusicianEdit.png?raw=true)
 - Adding view
+![Add](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/Add.png?raw=true)
 - Song add
+![AddSong](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AddSong.png?raw=true)
 - Musician add
+![AddMusician](https://github.com/Ave44/Portfolio/blob/71cc04fc663f595d23ae41492c9f74aa0b027723/images/ReactMusicApp/AddMusician.png?raw=true)
 
-App styles are written entierly in scss, and every view is responsive.
+
 
 ## Dependencies
 - react *^18.2.0*
