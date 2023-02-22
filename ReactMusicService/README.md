@@ -1,6 +1,16 @@
 # Music service 🎶
 Music service react app is an application where you can store and browse your favourite tracks! It allows user to add, manage, and connect songs and authors of His/Hers choice.
 
+## Table of Contents
+- [Frontend](#Frontend)
+  - [Views](#Views)
+  - [Dependencies](#Dependencies)
+- [Backend](#Backend)
+  - [Dependencies](#Dependencies)
+  - [Setup](#Setup)
+  - [Tables](#Tables)
+  - [Routes](#Routes)
+
 # Frontend
 App is fully translated into two languages, English and Russian.
 App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
