@@ -46,7 +46,7 @@ client
             musicianId INT NOT NULL
         );`)
         
-        const port = 5000
+        const port = process.env.BACKEND_PORT || 5000
         app.listen(port, () => {
             console.log(`API server listening at http://localhost:${port}`)
     })
