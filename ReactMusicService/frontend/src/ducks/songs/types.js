@@ -1,0 +1,15 @@
+const ADD_SONG = 'ADD_SONG'
+const ADD_MULTIPLE_SONGS = 'ADD_MULTIPLE_SONGS'
+const DELETE_SONG = 'DELETE_SONG'
+const EDIT_SONG = 'EDIT_SONG'
+const SET_SORTING = 'SET_SORTING'
+
+const types = {
+    ADD_SONG,
+    ADD_MULTIPLE_SONGS,
+    DELETE_SONG,
+    EDIT_SONG,
+    SET_SORTING
+}
+
+export default types;

@@ -1,0 +1,484 @@
+{
+    "songs": [
+        {
+            "id": 11,
+            "title": "Wabababa",
+            "genre": "Electro Swing",
+            "productionyear": "2021-05-28",
+            "image": "https://i1.sndcdn.com/artworks-39mIPCeme4kk1HHS-3kUGlw-t500x500.jpg",
+            "video": "https://www.youtube.com/watch?v=6MlkmiaPVM4"
+        },
+        {
+            "id": 1,
+            "title": "Wonderland",
+            "genre": "Electro Swing",
+            "productionyear": "2016-06-14",
+            "image": "https://ecsmedia.pl/c/wonderland-w-iext35301246.jpg",
+            "video": "https://www.youtube.com/watch?v=vCXsRoyFRQE"
+        },
+        {
+            "id": 25,
+            "title": "Song with no video",
+            "genre": "Test",
+            "productionyear": "2022-01-04",
+            "image": "not working",
+            "video": ""
+        },
+        {
+            "id": 12,
+            "title": "When You Look At Me",
+            "genre": "Pop",
+            "productionyear": "2001-10-08",
+            "image": "https://images.genius.com/6caba1ba2969485b111b5bf88a91c764.1000x1000x1.jpg",
+            "video": "https://www.youtube.com/watch?v=nxRIjRSzxGo"
+        },
+        {
+            "id": 24,
+            "title": "Song with no image",
+            "genre": "Test",
+            "productionyear": "2022-01-04",
+            "image": "",
+            "video": "not working"
+        },
+        {
+            "id": 13,
+            "title": "These Boots Are Made For Walkin'",
+            "genre": "Country",
+            "productionyear": "1966-06-04",
+            "image": "https://brookearly.weebly.com/uploads/4/2/1/0/42105327/1464747_orig.jpg",
+            "video": "https://www.youtube.com/watch?v=vhVaLL5pQv0"
+        },
+        {
+            "id": 14,
+            "title": "Sweet Dreams",
+            "genre": "Pop",
+            "productionyear": "1983-01-21",
+            "image": "https://m.media-amazon.com/images/M/MV5BMmY2ZGU5OGEtOWRkYS00MTczLWFiZWItODFhMTI2YzM1MGRiXkEyXkFqcGdeQXVyMDQwNzMzMQ@@._V1_.jpg",
+            "video": "https://www.youtube.com/watch?v=qeMFqkcPYcg"
+        },
+        {
+            "id": 15,
+            "title": "Toss A Coin To Your Witcher",
+            "genre": "Classical",
+            "productionyear": "2019-12-20",
+            "image": "https://i.scdn.co/image/ab67616d0000b273057c89612e13ce25c02a7520",
+            "video": "https://www.youtube.com/watch?v=waMkFIzvDpE"
+        },
+        {
+            "id": 2,
+            "title": "Lone Digger",
+            "genre": "Electro Swing",
+            "productionyear": "2015-11-15",
+            "image": "https://i.ytimg.com/vi/UbQgXeY_zi4/maxresdefault.jpg",
+            "video": "https://www.youtube.com/watch?v=UbQgXeY_zi4"
+        },
+        {
+            "id": 17,
+            "title": "Say What",
+            "genre": "Electro Swing",
+            "productionyear": "2016-08-17",
+            "image": "https://f4.bcbits.com/img/a2011430017_10.jpg",
+            "video": "https://www.youtube.com/watch?v=Om9uuRZy8cQ"
+        },
+        {
+            "id": 6,
+            "title": "Bella Di Notte",
+            "genre": "Electro Swing",
+            "productionyear": "2019-06-04",
+            "image": "https://i.ytimg.com/vi/sgzmByOiDyU/maxresdefault.jpg",
+            "video": "https://www.youtube.com/watch?v=k5MEOhybkhw"
+        },
+        {
+            "id": 4,
+            "title": "Make Me Believe",
+            "genre": "Electro Swing",
+            "productionyear": "2021-08-05",
+            "image": "https://geo-media.beatport.com/image_size/1400x1400/fcfd9386-73ec-4edd-924f-2fc82c7b8979.jpg",
+            "video": "https://www.youtube.com/watch?v=kx--qcNpxEQ"
+        },
+        {
+            "id": 5,
+            "title": "Kiss Me",
+            "genre": "Electro Swing",
+            "productionyear": "2014-02-20",
+            "image": "https://i1.sndcdn.com/artworks-000066382330-2oj7cb-t500x500.jpg",
+            "video": "https://www.youtube.com/watch?v=9fJuGV_C5g4"
+        },
+        {
+            "id": 7,
+            "title": "Crazy Out There",
+            "genre": "Electro Swing",
+            "productionyear": "2021-11-19",
+            "image": "https://i.ytimg.com/vi/HroV08_4ku8/maxresdefault.jpg",
+            "video": "https://www.youtube.com/watch?v=7AMnkPy02dI"
+        },
+        {
+            "id": 8,
+            "title": "Music Has The Power",
+            "genre": "Electro Swing",
+            "productionyear": "2019-11-22",
+            "image": "https://i.ytimg.com/vi/QlAfODtHZhw/maxresdefault.jpg",
+            "video": "https://www.youtube.com/watch?v=Z8EGMqfT4jw"
+        },
+        {
+            "id": 18,
+            "title": "Get Movin",
+            "genre": "Electro Swing",
+            "productionyear": "2017-03-17",
+            "image": "https://i.scdn.co/image/ab67616d0000b273207aaf2b6a1bb9a2ac434194",
+            "video": "https://www.youtube.com/watch?v=0bHP2lUhqxw"
+        },
+        {
+            "id": 20,
+            "title": "Out of Touch",
+            "genre": "Electronic",
+            "productionyear": "1984-12-11",
+            "image": "https://img.freepik.com/darmowe-wektory/retro-futurystyczny-synthwave-retrowave-stylizowany-noc-grod-z-zachodem-slonca-na-tle_148087-120.jpg?size=626&ext=jpg",
+            "video": "https://www.youtube.com/watch?v=zZdVwTjUtjg"
+        },
+        {
+            "id": 22,
+            "title": "Song for Denise",
+            "genre": "Electronic",
+            "productionyear": "2020-10-04",
+            "image": "https://i.ytimg.com/vi/fw_Wx07J4Ps/maxresdefault.jpg",
+            "video": "https://www.youtube.com/watch?v=fw_Wx07J4Ps"
+        },
+        {
+            "id": 31,
+            "title": "Hit & Run",
+            "genre": "Electro Swing",
+            "productionyear": "2018-11-06",
+            "image": "https://i1.sndcdn.com/artworks-3RWUtY9zPzId-0-t500x500.jpg",
+            "video": "https://www.youtube.com/watch?v=fPRLc6t0U5o"
+        },
+        {
+            "id": 26,
+            "title": "Song with no image and video",
+            "genre": "Test",
+            "productionyear": "2022-01-04",
+            "image": "",
+            "video": ""
+        },
+        {
+            "id": 21,
+            "title": "Vitality",
+            "genre": "Electronic",
+            "productionyear": "2018-06-30",
+            "image": "https://i1.sndcdn.com/artworks-000657164791-ut5m1b-t500x500.jpg",
+            "video": "https://www.youtube.com/watch?v=EnDXGQmCz3U"
+        },
+        {
+            "id": 36,
+            "title": "Out of My Mind",
+            "genre": "Electro Swing",
+            "productionyear": "2012-09-27",
+            "image": "https://img.discogs.com/Lm5w0-4-cX2_xq-QoV2KCpSIY3c=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3722897-1341775936-3189.jpeg.jpg",
+            "video": "https://www.youtube.com/watch?v=Eu7XHMMAKFM"
+        },
+        {
+            "id": 37,
+            "title": "On The Run",
+            "genre": "Electro Swing",
+            "productionyear": "2021-05-07",
+            "image": "https://i.scdn.co/image/ab67616d0000b27313e1b3566a65baa961a4ac3e",
+            "video": "https://www.youtube.com/watch?v=p8In1XySyi8"
+        },
+        {
+            "id": 16,
+            "title": "The Golden One",
+            "genre": "Classical",
+            "productionyear": "2021-12-17",
+            "image": "https://nerdreactor.com/wp-content/uploads/2021/10/The-Witcher-Season-2-Henry-Cavill.jpg",
+            "video": "https://www.youtube.com/watch?v=FkdLulbAdTg"
+        },
+        {
+            "id": 3,
+            "title": "Guilty Pleasure",
+            "genre": "Electro Swing",
+            "productionyear": "2021-03-14",
+            "image": "https://s.mxmcdn.net/images-storage/albums5/6/5/0/4/7/2/54274056_500_500.jpg",
+            "video": "https://www.youtube.com/watch?v=Xyt1G_VVPWA"
+        },
+        {
+            "id": 23,
+            "title": "Golden Wind",
+            "genre": "Electronic",
+            "productionyear": "2020-05-18",
+            "image": "https://t4.ftcdn.net/jpg/02/25/75/07/360_F_225750703_6LQ4Rr6gR9lSoT0e77kYSBYgdLeDkEOh.jpg",
+            "video": "https://www.youtube.com/watch?v=K4apTqsfNbk"
+        }
+    ],
+
+    "musicians": [
+        {
+            "id": 3,
+            "name": "Caravan Palace",
+            "country": "France",
+            "year": "2008",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/d4/ac/70/d4ac7012-608f-c19b-2723-031788a2abe8/mzl.umrfseei.jpg/375x375cc.webp"
+        },
+        {
+            "id": 6,
+            "name": "Little Violet",
+            "country": "United Kingdom",
+            "year": "2012",
+            "image": "https://www.donstunes.com/wp-content/uploads/2021/09/LV-Silent-Movie-50pc_cr.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Wolfgang Lohr",
+            "country": "Germany",
+            "year": "2011",
+            "image": "https://s3-us-west-2.amazonaws.com/issuewireassets/primg/17336/wolfgang-lohr.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Odd Chap",
+            "country": "New Zealand",
+            "year": "2015",
+            "image": "https://f4.bcbits.com/img/a2456639347_10.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Balduin",
+            "country": "Germany",
+            "year": "2014",
+            "image": "https://electroswingthing.com/wp-content/uploads/2019/04/Balduin-GER.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Christina Milian",
+            "country": "Unated States",
+            "year": "1998",
+            "image": "https://ecsmedia.pl/c/christina-milian-b-iext67525754.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Nancy Sinatra",
+            "country": "Unated States",
+            "year": "1964",
+            "image": "https://lastfm.freetls.fastly.net/i/u/ar0/843e530c29c62d87362459b608f025f5"
+        },
+        {
+            "id": 17,
+            "name": "Eurythmics",
+            "country": "United Kingdom",
+            "year": "1980",
+            "image": "https://yt3.ggpht.com/ytc/AKedOLTO6V1zTnBnBEofLMNlIGKhMfDMhSpofxh6pFOr=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "id": 18,
+            "name": "Jaskier",
+            "country": "United Kingdom",
+            "year": "2008",
+            "image": "https://bi.im-g.pl/im/a5/59/18/z25531813IEG,-Wiedzmin----serial-Netflixa--Joey-Batey-w-roli-Ja.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Cut Capers",
+            "country": "United Kingdom",
+            "year": "2012",
+            "image": "https://www.femalefirst.co.uk/image-library/square/1000/c/cut-capers-interview-image.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Lyre le temps",
+            "country": "Francja",
+            "year": "2007",
+            "image": "https://www.mediatone-lyon.net/wp-content/uploads/2018/12/lyreletemps-style-lyon-visu400px.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Hall & Oates",
+            "country": "Unated States",
+            "year": "1969",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1260,w_1871,x_43,y_0/v1582648630/shape/mentalfloss/618786-michaelputland-gettyimages-110263877.jpg?itok=-D3O20Jp"
+        },
+        {
+            "id": 22,
+            "name": "Mittsies",
+            "country": "Unated States",
+            "year": "2006",
+            "image": "https://yt3.ggpht.com/ytc/AKedOLTpCUQjC-ODVSa7cIJX_Q7sfitHpwGy_2FJE4yo=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "id": 23,
+            "name": "Franzoli Electronics",
+            "country": "Brazil",
+            "year": "2008",
+            "image": "https://yt3.ggpht.com/ytc/AKedOLQq9-yN9HMylOh97ck9HDdARxye1AMvSKfkY97Z3w=s900-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "id": 25,
+            "name": "Musician with no songs",
+            "country": "Test",
+            "year": "2000",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "name": "Octavia Rose",
+            "country": "United Kingdom",
+            "year": "2012",
+            "image": "https://i1.sndcdn.com/avatars-000707281109-naibhy-t500x500.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Jamie Berry",
+            "country": "United Kingdom",
+            "year": "2012",
+            "image": "https://electroswingthing.com/wp-content/uploads/2019/04/Jamie-Berry-UK.jpg"
+        },
+        {
+            "id": 12,
+            "name": "!DelaDap",
+            "country": "Austria",
+            "year": "2002",
+            "image": "https://www.newmodelradio.sk/wp-content/uploads/2020/06/Stani-Vana.jpg"
+        }
+    ],
+
+    "connections": [
+        {
+            "id": 154,
+            "songid": 16,
+            "musicianid": 18
+        },
+        {
+            "id": 85,
+            "songid": 2,
+            "musicianid": 3
+        },
+        {
+            "id": 86,
+            "songid": 3,
+            "musicianid": 6
+        },
+        {
+            "id": 87,
+            "songid": 3,
+            "musicianid": 5
+        },
+        {
+            "id": 88,
+            "songid": 4,
+            "musicianid": 5
+        },
+        {
+            "id": 89,
+            "songid": 4,
+            "musicianid": 4
+        },
+        {
+            "id": 90,
+            "songid": 6,
+            "musicianid": 7
+        },
+        {
+            "id": 92,
+            "songid": 5,
+            "musicianid": 5
+        },
+        {
+            "id": 93,
+            "songid": 7,
+            "musicianid": 6
+        },
+        {
+            "id": 94,
+            "songid": 7,
+            "musicianid": 11
+        },
+        {
+            "id": 95,
+            "songid": 8,
+            "musicianid": 7
+        },
+        {
+            "id": 96,
+            "songid": 8,
+            "musicianid": 12
+        },
+        {
+            "id": 97,
+            "songid": 11,
+            "musicianid": 14
+        },
+        {
+            "id": 98,
+            "songid": 12,
+            "musicianid": 15
+        },
+        {
+            "id": 99,
+            "songid": 13,
+            "musicianid": 16
+        },
+        {
+            "id": 100,
+            "songid": 14,
+            "musicianid": 17
+        },
+        {
+            "id": 101,
+            "songid": 15,
+            "musicianid": 18
+        },
+        {
+            "id": 103,
+            "songid": 17,
+            "musicianid": 19
+        },
+        {
+            "id": 104,
+            "songid": 18,
+            "musicianid": 19
+        },
+        {
+            "id": 107,
+            "songid": 20,
+            "musicianid": 21
+        },
+        {
+            "id": 108,
+            "songid": 22,
+            "musicianid": 23
+        },
+        {
+            "id": 109,
+            "songid": 23,
+            "musicianid": 23
+        },
+        {
+            "id": 110,
+            "songid": 21,
+            "musicianid": 22
+        },
+        {
+            "id": 64,
+            "songid": 1,
+            "musicianid": 3
+        },
+        {
+            "id": 136,
+            "songid": 31,
+            "musicianid": 7
+        },
+        {
+            "id": 145,
+            "songid": 36,
+            "musicianid": 5
+        },
+        {
+            "id": 146,
+            "songid": 36,
+            "musicianid": 11
+        },
+        {
+            "id": 148,
+            "songid": 37,
+            "musicianid": 11
+        }
+    ]
+}
