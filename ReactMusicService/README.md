@@ -43,27 +43,64 @@ App styles are written entierly in scss, and every view is responsive with plent
 3. Run `npm start`
 
 ## Views
-- Home
+### Home
+main site where user is greeted by four stylish widgets showing:
+- Musician with most songs
+- Interactive diagram of songs relased each year
+- Interactive chart of distribution of all song genres
+- List of songs that dont have assigned author
+
 ![Home](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Home.png?raw=true)
-- Song list
+
+### Song list
+paginated list of all songs with expandable filter box!
+
 ![SongList](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongList.png?raw=true)
-- Song details
+![SongListFilters](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongListFilters.png?raw=true)
+
+### Song details
+.
+
 ![SongDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongDetails.png?raw=true)
-- Song edit
+
+### Song edit
+.
+
 ![SongEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongEdit.png?raw=true)
-- Song asign authors
+
+### Song asign authors
+.
+
 ![AsignAuthors](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AsignAuthors.png?raw=true)
-- Musicians list
+
+### Musicians list
+.
+
 ![Musicians](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Musicians.png?raw=true)
-- Musician details
+
+### Musician details
+.
+
 ![MusicianDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianDetails.png?raw=true)
-- Musician edit
+
+### Musician edit
+.
+
 ![MusicianEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianEdit.png?raw=true)
-- Adding view
+
+### Adding view
+.
+
 ![Add](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Add.png?raw=true)
-- Song add
+
+### Song add
+.
+
 ![AddSong](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddSong.png?raw=true)
-- Musician add
+
+### Musician add
+.
+
 ![AddMusician](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddMusician.png?raw=true)
 
 # Backend
