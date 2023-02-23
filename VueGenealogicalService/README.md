@@ -8,7 +8,7 @@
 - [Backend](#Backend)
   - [Dependencies](#Dependencies-Backend)
   - [Setup](#Setup-Backend)
-  - [Security](#Secutity)
+  - [Security](#Security)
   - [Websockets](#Websockets)
   - [Data structure](#Data-structure)
   - [Routes](#Routes)
@@ -64,7 +64,7 @@ PORT = 5000
 ```
 4. Run `node index.js`
 
-## Secutity
+## Security
 Backend is securied with *passport* using JWT strategy. Users passwords are safely stored in database encrypted and salted with *bcryptjs*. All backend routes *(beside two routes for signing in and logging in)* are protected with use of middleware.
 
 ## Websockets
