@@ -1,4 +1,5 @@
 # Genealogical service 🌳
+Vue genealogical service is an application for creating and managing genealogical trees, chating with other users and searching for common ancestors among other users
 
 ## Table of Contents
 - [Frontend](#Frontend)
@@ -14,12 +15,84 @@
   - [Routes](#Routes)
 
 # Frontend
+- App was created according to *Options API* pattern
+- App store is created with *Vuex*
+- App requests to backend are automaticially injected with *Authorization* header with correct tocken stored in app store
+- App styles are written entierly in *scss* with use of variables, and every view is responsive with plenty of various cool hover effects
 
 <h2 id="Dependencies-Frontend">Dependencies</h2>
 
+- vue *^3.2.13*
+- vue-router *^4.1.6*
+- vuex *^4.1.0*
+- axios *^1.2.2*
+- sass *^1.57.1*
+- sass-loader *^13.2.0*
+- socket.io *^4.5.4*
+- socket.io-client *^4.5.4*
+
 <h2 id="Setup-Frontend">Setup</h2>
 
+1. After cloning repository run `npm i` in *frontend* directory
+2. Make sure that your backend is working correctly ([see there](#Setup-Backend))
+3. Run `npm run serve`
+
 ## Views
+### Login
+First view that user sees, and to which is redirected if is not logged in.
+
+![Login](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Login.png?raw=true)
+
+### Sing up
+View for signing in
+
+![SignUp](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SignUp.png?raw=true)
+
+### Tree
+Main view for logged user which allows to browse and manage tree by adding, editing and deleting people.
+
+![Tree](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Tree.png?raw=true)
+
+### Edit person
+View for editing people with dropdown and multiselect lists.
+
+![Edit](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Edit.png?raw=true)
+
+### Add person
+View for adding new person.
+
+![Add](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Add.png?raw=true)
+
+### Social
+View where user can acces his/hers friends and chat with all active users.
+
+![Social](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Social.png?raw=true)
+
+### Friend view
+View where user can look at trees of other people, chat with them and copy part of theirs trees.
+
+![Friend](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Friend.png?raw=true)
+
+![FriendCopping](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/FriendCopping.png?raw=true)
+
+### Search select
+View that allows user to select searching type
+
+![Search](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/Search.png?raw=true)
+
+### Search by name
+View that allows user to search his realtives in trees of other users by passing ancestors name and birth date.
+
+![SearchByNameBefore](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchByNameBefore.png?raw=true)
+
+![SearchByNameAfter](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchByNameAfter.png?raw=true)
+
+### Search by surnames
+View that allows user to search his realtives in trees of other users by passing set of surnames that are present in his/hers fammily tree.
+
+![SearchBySurnameBefore](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchBySurnameBefore.png?raw=true)
+
+![SearchBySurnameAfrter](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchBySurnameAfrter.png?raw=true)
 
 # Backend
 App backend is composed of four main parts

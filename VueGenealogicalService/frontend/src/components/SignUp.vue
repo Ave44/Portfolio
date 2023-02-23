@@ -46,9 +46,11 @@ export default {
         .then(res => {
           if(res) {
             this.$router.push({name: 'Layout'})
-          } else {
-            alert("Incorrect or missing values")
           }
+        })
+        .catch(err => {
+          this.processing = false
+          alert("Incorrect or missing values")
         })
       }
     },
