@@ -121,59 +121,54 @@ All routes have theirs corresponding postman test that are prsenting theirs func
 
 ### MongoDB
 - User
-  - GET  `/users` - get all users from database
-  - GET  `/users/:id` - get user by id
+  - GET &ensp; `/users` - get all users from database
+  - GET &ensp; `/users/:id` - get user by id
   - POST `/unprotected` - create new user
   - POST `/unprotected/login` - login user to get jwt
-  - PUT  `/users/:id` - update user
-  - DEL  `/users/:id` - delete user
+  - PUT &ensp; `/users/:id` - update user
+  - DEL &ensp; `/users/:id` - delete user
 - Chat
-  - GET  `/chats` - get all chats from database
-  - GET  `/chats/:id` - get chat by id
+  - GET &ensp; `/chats` - get all chats from database
+  - GET &ensp; `/chats/:id` - get chat by id
   - POST `/chats` - create new chat
-  - PUT  `/chats/:id` - update chat
-  - DEL  `/chats/:id` - delete chat
+  - PUT &ensp; `/chats/:id` - update chat
+  - DEL &ensp; `/chats/:id` - delete chat
 ### Neo4j
 - People
-  - GET  `/people` - get all people from database
-  - GET  `/people/:id` - get person by id
-  - GET  `/people/root/:userId` - get root node of user
+  - GET &ensp; `/people` - get all people from database
+  - GET &ensp; `/people/:id` - get person by id
+  - GET &ensp; `/people/root/:userId` - get root node of user
   - POST `/people` - create person
   - POST `/people/root` - create root node
   - POST `/people/search` - get people with matching name and birth date
   - POST `/people/coprPeople` - copy selected people (leaves original userId as additional property)
   - POST `/people/removeOriginalIdProperty` - removes *originalId* property from selected nodes
-  - PUT  `/people/:id` - update node
-  - DEL  `/people/:id` - delete node
-  - GET  `/people/user/:userId` - get all nodes belonging to user
-  - GET  `/people/user/female/:userId` - get all nodes with label *female* belonging to user
-  - GET  `/people/user/male/:userId` - get all nodes with label *male* belonging to user
-  - GET  `/people/mother/:id` - get mother of person
-  - GET  `/people/father/:id` - get father of person
-  - GET  `/people/possibleMother/:id` - get all possible mothers of person
-  - GET  `/people/possibleFather/:id` - get all possible fathers of person
-  - GET  `/people/parents/:id` - get parents of person
-  - GET  `/people/children/:id` - get children of person
+  - PUT &ensp; `/people/:id` - update node
+  - DEL &ensp; `/people/:id` - delete node
+  - GET &ensp; `/people/user/:userId` - get all nodes belonging to user
+  - GET &ensp; `/people/user/female/:userId` - get all nodes with label *female* belonging to user
+  - GET &ensp; `/people/user/male/:userId` - get all nodes with label *male* belonging to user
+  - GET &ensp; `/people/mother/:id` - get mother of person
+  - GET &ensp; `/people/father/:id` - get father of person
+  - GET &ensp; `/people/possibleMother/:id` - get all possible mothers of person
+  - GET &ensp; `/people/possibleFather/:id` - get all possible fathers of person
+  - GET &ensp; `/people/parents/:id` - get parents of person
+  - GET &ensp; `/people/children/:id` - get children of person
 - Relations
   - POST `/relations/setMother` - set mother-child relations between two nodes
-  - PUT  `/relations/updateMother` - change mother-child relations between three nodes
-  - DEL  `/relations/delMother` - delete mother-child relations between two nodes
-
+  - PUT &ensp; `/relations/updateMother` - change mother-child relations between three nodes
+  - DEL &ensp; `/relations/delMother` - delete mother-child relations between two nodes
   - POST `/relations/setFather` - set father-child relations between two nodes
-  - PUT  `/relations/updateFather` - change father-child relations between three nodes
-  - DEL  `/relations/delFather` - delete father-child relations between two nodes
-
+  - PUT &ensp; `/relations/updateFather` - change father-child relations between three nodes
+  - DEL &ensp; `/relations/delFather` - delete father-child relations between two nodes
   - POST `/relations/setPossibleMothers` - set possibleMother-possibleChild relations between many nodes
-  - PUT  `/relations/changePossibleMothers` - change possibleMother-possibleChild relations between many nodes
-  - DEL  `/relations/delPossibleMothers` - delete possibleMother-possibleChild relations between many nodes
-
+  - PUT &ensp; `/relations/changePossibleMothers` - change possibleMother-possibleChild relations between many nodes
+  - DEL &ensp; `/relations/delPossibleMothers` - delete possibleMother-possibleChild relations between many nodes
   - POST `/relations/setPossibleFathers` - set possibleFather-possibleChild relations between many nodes
-  - PUT  `/relations/changePossibleFathers` - change possibleFather-possibleChild relations between many nodes
-  - DEL  `/relations/delPossibleFathers` - delete possibleFather-possibleChild relations between many nodes
-
+  - PUT &ensp; `/relations/changePossibleFathers` - change possibleFather-possibleChild relations between many nodes
+  - DEL &ensp; `/relations/delPossibleFathers` - delete possibleFather-possibleChild relations between many nodes
   - POST `/relations/setChildren` - set mother-child or father-child relations
-  - DEL  `/relations/delChildren` - delete mother-child or father-child relations
-
+  - DEL &ensp; `/relations/delChildren` - delete mother-child or father-child relations
   - POST `/relations/getPeopleRelations` - get selected people relations
   - POST `/relations/copyFatherRelations` - copy selected father-child relations based on *originalId* property
   - POST `/relations/copyMotherRelations` - copy selected mother-child relations based on *originalId* property
