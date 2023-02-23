@@ -1,0 +1,1399 @@
+{
+	"info": {
+		"_postman_id": "3e8fa92f-0007-430d-ab45-2463947a0cb0",
+		"name": "projekt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24385841"
+	},
+	"item": [
+		{
+			"name": "Neo4j",
+			"item": [
+				{
+					"name": "Mother",
+					"item": [
+						{
+							"name": "Get Mother",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{neoEndpoint}}/mother/{{id}}",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"mother",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "setMother",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"10\",\r\n    \"motherId\": \"12\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/setMother",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"setMother"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delMother",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"0\",\r\n    \"motherId\": \"10\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/delMother",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"delMother"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateMother",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"1\",\r\n    \"newMotherId\": \"4\",\r\n    \"oldMotherId\": \"5\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/updateMother",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"updateMother"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Possible Mother",
+					"item": [
+						{
+							"name": "Get Possible Mothers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{neoEndpoint}}/possibleMother/{{id}}",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"possibleMother",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "setPossibleMothers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"possibleChildId\": \"1\",\r\n    \"possibleMothersId\": [\"6\", \"7\"]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/setPossibleMothers",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"setPossibleMothers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delPossibleMothers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"possibleChildId\": \"1\",\r\n    \"possibleMothersId\": [6, 7]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/delPossibleMothers",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"delPossibleMothers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "changePossibleMothers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"possibleChildId\": \"1\",\r\n    \"PossibleMothersIdToAdd\": [6],\r\n    \"PossibleMothersIdToDelete\": [6, 7]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/changePossibleMothers",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"changePossibleMothers"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Father",
+					"item": [
+						{
+							"name": "Get Father",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{neoEndpoint}}/father/{{id}}",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"father",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "setFather",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"11\",\r\n    \"fatherId\": \"9\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/setFather",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"setFather"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateFather",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"1\",\r\n    \"newFatherId\": \"4\",\r\n    \"oldFatherId\": \"5\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/updateFather",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"updateFather"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delFather",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"childId\": \"0\",\r\n    \"fatherId\": \"11\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/delFather",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"delFather"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Possible Father",
+					"item": [
+						{
+							"name": "Get Possible Fathers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{neoEndpoint}}/possibleFather/{{id}}",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"possibleFather",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "setPossibleFathers",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"possibleChildId\": \"1\",\r\n    \"possibleFathersId\": [0, 8]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/setPossibleFathers",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"setPossibleFathers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delPossibleFather",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"possibleChildId\": \"1\",\r\n    \"possibleFathersId\": [0, 8]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/delPossibleFathers",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"delPossibleFathers"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Children",
+					"item": [
+						{
+							"name": "Get Children",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{neoEndpoint}}/children/{{id}}",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"children",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Set Children",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"personId\": \"1\",\r\n    \"childrenId\": [2, 3]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/setChildren",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"setChildren"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Del Children",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"personId\": \"1\",\r\n    \"childrenId\": [2, 3]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{neoEndpoint}}/relations/delChildren",
+									"host": [
+										"{{neoEndpoint}}"
+									],
+									"path": [
+										"relations",
+										"delChildren"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Add person (M)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jon Doe\",\r\n    \"birthDate\": \"02.06.1996\",\r\n    \"gender\": \"Male\",\r\n    \"userId\": \"0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{neoEndpoint}}",
+							"host": [
+								"{{neoEndpoint}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add person (F)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jane Doe\",\r\n    \"birthDate\": \"02.06.1996\",\r\n    \"gender\": \"Female\",\r\n    \"userId\": \"0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{neoEndpoint}}",
+							"host": [
+								"{{neoEndpoint}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add root person",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jon Doe\",\r\n    \"birthDate\": \"02.06.1996\",\r\n    \"gender\": \"Male\",\r\n    \"userId\": \"0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{neoEndpoint}}/root",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"root"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}",
+							"host": [
+								"{{neoEndpoint}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get by id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get root person",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/root/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"root",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit person",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jon Doe Updated\",\r\n    \"birthDate\": \"02.06.1996\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{neoEndpoint}}/1",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete person",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users People",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/user/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"user",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users Female People",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/user/female/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"user",
+								"female",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users Male People",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/user/male/{{id}}",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"user",
+								"male",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Parents",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/parents/11",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"parents",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search People in others trees",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"j\",\r\n    \"birthDate\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{neoEndpoint}}/search",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"search"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MongoDB",
+			"item": [
+				{
+					"name": "User",
+					"item": [
+						{
+							"name": "Get All Users",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/users",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get User by Id",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/users/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"users",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add User (unprotected)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Jon test\",\r\n    \"surname\": \"Doe\",\r\n    \"login\": \"jdoe\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{mongoEndpoint}}/unprotected",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"unprotected"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login User (unprotected)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"jdoe\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{mongoEndpoint}}/unprotected/login",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"unprotected",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Edit User",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Jon updated\",\r\n    \"surname\": \"Doe updated\",\r\n    \"login\": \"jdoe2\",\r\n    \"password\": \"j\",\r\n    \"birthDate\": \"02.04.1996\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{mongoEndpoint}}/users/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"users",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete User",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/users/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"users",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Chat",
+					"item": [
+						{
+							"name": "Get all chats",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/chats",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"chats"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get user chats",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/chats/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"chats",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add chat",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"members\": [\"63e25d44687cc11dbc080c9e\", \"63e25ce6687cc11dbc080c9c\"]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{mongoEndpoint}}/chats",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"chats"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Send massage",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"senderId\": \"63deb2d76ff98847f5c0ea49\",\r\n    \"senderName\": \"Jon Doe\", \r\n    \"message\": \"Test message3\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{mongoEndpoint}}/chats/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"chats",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Del chat",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{mongoEndpoint}}/chats/{{id}}",
+									"host": [
+										"{{mongoEndpoint}}"
+									],
+									"path": [
+										"chats",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

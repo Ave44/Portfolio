@@ -1,0 +1,22 @@
+:root {
+	--contrast: rgb(0, 0, 0, 0.15);
+	--focus: rgb(0, 0, 0, 0.3);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--contrast);
+  width: 10px;
+	border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--focus);
+  border-radius: 10px;
+}
