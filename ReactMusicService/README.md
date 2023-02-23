@@ -53,53 +53,58 @@ main site where user is greeted by four stylish widgets showing:
 ![Home](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Home.png?raw=true)
 
 ### Song list
-paginated list of all songs with expandable filter box!
+paginated list of all songs with expandable and animated filter box!
 
 ![SongList](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongList.png?raw=true)
 ![SongListFilters](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongListFilters.png?raw=true)
 
 ### Song details
-.
+this view allows user to edit, delete, and what is most important to listen to selected song!
 
 ![SongDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongDetails.png?raw=true)
 
 ### Song edit
-.
+neat edit form creadted with *Formik* and fully validated with *yup*.
+All error messages are displayed below corresponding fields.
 
 ![SongEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/SongEdit.png?raw=true)
 
-### Song asign authors
-.
+### Song assign authors
+view that allows assigning multiple authors to song. All authors can be filtered and sorted like in *Musicians list* view
 
-![AsignAuthors](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AsignAuthors.png?raw=true)
+![AssignAuthors](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AssignAuthors.png?raw=true)
 
 ### Musicians list
-.
+paginated list of all musicians with expandable and animated filter box!
 
 ![Musicians](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Musicians.png?raw=true)
+![MusiciansFilters](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusiciansFilters.png?raw=true)
 
 ### Musician details
-.
+this view allows user to edit and delete musician, or quickly jump to one of his/hers songs!
 
 ![MusicianDetails](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianDetails.png?raw=true)
 
 ### Musician edit
-.
+neat edit form creadted with *Formik* and fully validated with *yup*.
+All error messages are displayed below corresponding fields.
 
 ![MusicianEdit](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/MusicianEdit.png?raw=true)
 
 ### Adding view
-.
+view that allows user to expand his/her collection!
 
 ![Add](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/Add.png?raw=true)
 
 ### Song add
-.
+neat add form creadted with *Formik* and fully validated with *yup*.
+All error messages are displayed below corresponding fields.
 
 ![AddSong](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddSong.png?raw=true)
 
 ### Musician add
-.
+neat add form creadted with *Formik* and fully validated with *yup*.
+All error messages are displayed below corresponding fields.
 
 ![AddMusician](https://github.com/Ave44/Portfolio/blob/main/images/ReactMusicApp/AddMusician.png?raw=true)
 
