@@ -92,7 +92,7 @@ View that allows user to search his realtives in trees of other users by passing
 
 ![SearchBySurnameBefore](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchBySurnameBefore.png?raw=true)
 
-![SearchBySurnameAfrter](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchBySurnameAfrter.png?raw=true)
+![SearchBySurnameAfter](https://github.com/Ave44/Portfolio/blob/main/images/VueGenealogicalService/SearchBySurnameAfter.png?raw=true)
 
 # Backend
 App backend is composed of four main parts
