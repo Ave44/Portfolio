@@ -13,8 +13,10 @@ Music service react app is an application where you can store and browse your fa
   - [Routes](#Routes)
 
 # Frontend
-App is fully translated into two languages, English and Russian.
-App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
+- App store is created according to the *Ducks* pattern.
+- All forms are created with *Formik* and validated with *Yup*
+- App is fully translated into two languages, English and Russian.
+- App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects.
 
 <h2 id="Dependencies-Frontend">Dependencies</h2>
 
