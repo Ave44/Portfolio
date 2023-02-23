@@ -10,7 +10,7 @@
   - [Setup](#Setup-Backend)
   - [Security](#Secutity)
   - [Websockets](#Websockets)
-  - [Data structure](#Data%20structure)
+  - [Data structure](#Data-structure)
   - [Routes](#Routes)
 
 # Frontend
