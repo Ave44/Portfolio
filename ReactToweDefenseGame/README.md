@@ -14,7 +14,7 @@ React tower defense game is an application for creating and playing awesome towe
 
 # Frontend
 - App has a global chat that utilizes the mqtt protocol
-- App uses cookies to store usefull info
+- App uses cookies to store usefull data
 - App styles are written entierly in scss, and every view is responsive with plenty of various cool hover effects
 - All textures are original and hand drawn
 
@@ -37,7 +37,7 @@ React tower defense game is an application for creating and playing awesome towe
 
 1. After cloning repository run `npm i` in *frontend* directory
 2. Make sure that your backend is working correctly ([see there](#Setup-Backend))
-3. Download and setup your mqtt broker (see [HiveMQ](#https://www.hivemq.com/) for example) so it is working on port *8000* (skipping this step will make you unable to chat, but game and all its functionalites will still be working correctly)
+3. Download and setup your mqtt broker (see [HiveMQ](https://www.hivemq.com/) for example) so it is working on port *8000* (skipping this step will make you unable to chat, but game and all its functionalites will still be working correctly)
 4. Run `npm start`
 
 ## Views
