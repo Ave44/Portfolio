@@ -1,5 +1,5 @@
 # Genealogical service 🌳
-Vue genealogical service is an application for creating and managing genealogical trees, chating with other users and searching for common ancestors among other users
+Vue genealogical service is an application for creating and managing genealogical trees, chatting with other users and searching for common ancestors among other users.
 
 ## Table of Contents
 - [Frontend](#Frontend)

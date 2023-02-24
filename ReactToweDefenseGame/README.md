@@ -1,5 +1,5 @@
 # React tower defense game 🎮
-React tower defense game is an application for creating and playing awesome tower defense game! And chatting with other users.
+React tower defense game is an application where you can playing awesome tower defense game! Additionaly you can eddit the game, create new levels or chat with other users.
 
 ## Table of Contents
 - [Frontend](#Frontend)
@@ -49,7 +49,7 @@ main game view, player can see there his/hers health points, gold, number of cur
 ![Game3](https://github.com/Ave44/Portfolio/blob/main/images/ReactTowerDefenseGame/Game3.png?raw=true)
 
 ### Main
-main site where user can save his score and chat with others.
+main site where user can save his/hers score and chat with others.
 
 ![Main](https://github.com/Ave44/Portfolio/blob/main/images/ReactTowerDefenseGame/Main.png?raw=true)
 

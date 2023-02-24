@@ -1,5 +1,5 @@
 # Music service 🎶
-Music service react app is an application where you can store and browse your favourite tracks! It allows user to add, manage, and connect songs and authors of His/Hers choice.
+Music service react app is an application where you can store and browse your favourite tracks! It allows user to add, manage, and connect songs and authors of your choice.
 
 ## Table of Contents
 - [Frontend](#Frontend)
