@@ -2,6 +2,27 @@ const express = require('express')
 const router = express.Router({mergeParams: true})
 const driver = require('../config/neo4jDriver')
 
+router.get('/getAll', async (req, res) => {
+    const relations = []
+    const session = driver.session()
+    await session
+    .run(`MATCH (s)-[r]-(e)
+          WITH DISTINCT r
+          RETURN r`)
+    .subscribe({
+        onNext: record => {
+            const rec = record.get(0)
+            relations.push({start: rec.startNodeElementId, end: rec.endNodeElementId, type: rec.type})
+        },
+        onCompleted: async () => {
+            session.close()
+            return res.send(relations)
+            },
+            onError: error => { console.log(error); session.close(); return res.status(500).send({error})
+            }
+        })
+})
+
 // Mother
 router.post('/setMother', async (req, res) => {
     const childId = req.body.childId

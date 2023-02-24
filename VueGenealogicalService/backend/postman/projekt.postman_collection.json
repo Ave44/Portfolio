@@ -782,6 +782,61 @@
 					"response": []
 				},
 				{
+					"name": "Get all with labels",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/withLabels",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"withLabels"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all relations",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{neoEndpoint}}/relations/getAll",
+							"host": [
+								"{{neoEndpoint}}"
+							],
+							"path": [
+								"relations",
+								"getAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Get by id",
 					"request": {
 						"auth": {
@@ -1145,7 +1200,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"login\": \"jdoe\",\r\n    \"password\": \"123\"\r\n}",
+									"raw": "{\r\n    \"login\": \"jk123\",\r\n    \"password\": \"123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

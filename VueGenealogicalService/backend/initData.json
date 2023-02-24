@@ -1,0 +1,2009 @@
+{
+    "users": [
+        {
+            "_id": "63e554e116532e96f9c58afb",
+            "name": "Jan",
+            "surname": "Kowalski",
+            "login": "jk123",
+            "password": "$2a$10$9GeD34bNPK.7ZOLnsM2uc.Sd8NMRaFoLzp9Hk7WYQijGHym/deW0S",
+            "birthDate": "04.05.1984",
+            "__v": 0
+        },
+        {
+            "_id": "63e55aad16532e96f9c58dc7",
+            "name": "Ola",
+            "surname": "Kowalczyk",
+            "login": "olka456",
+            "password": "$2a$08$wkfWKWYnBoFsu2jeZHoGPOuKbnJc7vNj4od3FXb0ZQu0jHh3EVPk6",
+            "birthDate": "12.12.1998",
+            "__v": 0
+        },
+        {
+            "_id": "63e55c6616532e96f9c58dd2",
+            "name": "Marcel",
+            "surname": "Szymańczyk",
+            "login": "marcelSz",
+            "password": "$2a$09$nWnD9P.6FK7PZKaQdvlGYehAfBG5L6VBypZtZvv5Qf74ZkoFtzqwS",
+            "birthDate": "30.01.1984",
+            "__v": 0
+        },
+        {
+            "_id": "63e55cb316532e96f9c58dd8",
+            "name": "Krzysztof",
+            "surname": "Lis",
+            "login": "Krzysztof",
+            "password": "$2a$12$hyvlvXIyxTVJjxQRlqXQbuQhfbIzxeKdBQIvojiYS1gsYdZmmV.gm",
+            "birthDate": "03.04.1999",
+            "__v": 0
+        },
+        {
+            "_id": "63e55ce516532e96f9c58dde",
+            "name": "Zuzanna",
+            "surname": "Czarnecka",
+            "login": "zuza",
+            "password": "$2a$10$3Yj/BEJjBQgCR16gMEgFG.ZEJKRePNuKzVZx4QDz8bd/aMiEXEYJO",
+            "birthDate": "25.10.2002",
+            "__v": 0
+        },
+        {
+            "_id": "63e55d4016532e96f9c58de4",
+            "name": "Julia",
+            "surname": "Przybylska",
+            "login": "julka",
+            "password": "$2a$10$WtDr.xrGVvZ2uBVGRwAxhu0wwU2Gz.HcFXa9E219LRcSc37ogqoE.",
+            "birthDate": "19.08.2000",
+            "__v": 0
+        }
+    ],
+
+    "chats": [
+        {
+            "_id": "63e560f016532e96f9c58f6c",
+            "members": [
+                "63e55c6616532e96f9c58dd2",
+                "63e554e116532e96f9c58afb"
+            ],
+            "history": [],
+            "__v": 0
+        },
+        {
+            "_id": "63e5646116532e96f9c5912d",
+            "members": [
+                "63e55ce516532e96f9c58dde",
+                "63e554e116532e96f9c58afb"
+            ],
+            "history": [],
+            "__v": 0
+        },
+        {
+            "_id": "63e5668b16532e96f9c5926a",
+            "members": [
+                "63e55aad16532e96f9c58dc7",
+                "63e55cb316532e96f9c58dd8"
+            ],
+            "history": [],
+            "__v": 0
+        },
+        {
+            "_id": "63e5669816532e96f9c59279",
+            "members": [
+                "63e55aad16532e96f9c58dc7",
+                "63e55d4016532e96f9c58de4"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55aad16532e96f9c58dc7",
+                    "senderName": "Ola Kowalczyk",
+                    "message": "Hi"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "Hello"
+                }
+            ],
+            "__v": 2
+        },
+        {
+            "_id": "63e5682216532e96f9c59355",
+            "members": [
+                "63e55cb316532e96f9c58dd8",
+                "63e554e116532e96f9c58afb"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "Hello"
+                },
+                {
+                    "senderId": "63e554e116532e96f9c58afb",
+                    "senderName": "Jan Kowalski",
+                    "message": "Hi"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "some message"
+                },
+                {
+                    "senderId": "63e554e116532e96f9c58afb",
+                    "senderName": "Jan Kowalski",
+                    "message": "some response"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "some other message"
+                },
+                {
+                    "senderId": "63e554e116532e96f9c58afb",
+                    "senderName": "Jan Kowalski",
+                    "message": "some other response"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "chat is functional"
+                },
+                {
+                    "senderId": "63e554e116532e96f9c58afb",
+                    "senderName": "Jan Kowalski",
+                    "message": "and history is persisted"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "test"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "final test"
+                }
+            ],
+            "__v": 10
+        },
+        {
+            "_id": "63e569f6d46cea84de7f23f0",
+            "members": [
+                "63e554e116532e96f9c58afb",
+                "63e55aad16532e96f9c58dc7"
+            ],
+            "history": [
+                {
+                    "senderId": "63e554e116532e96f9c58afb",
+                    "senderName": "Jan Kowalski",
+                    "message": "Hello"
+                }
+            ],
+            "__v": 1
+        },
+        {
+            "_id": "63e56d0485f662e5c47a03eb",
+            "members": [
+                "63e55aad16532e96f9c58dc7",
+                "63e55c6616532e96f9c58dd2"
+            ],
+            "history": [],
+            "__v": 0
+        },
+        {
+            "_id": "63e56d362185d82e83b8cb12",
+            "members": [
+                "63e55aad16532e96f9c58dc7",
+                "63e55ce516532e96f9c58dde"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55aad16532e96f9c58dc7",
+                    "senderName": "Ola Kowalczyk",
+                    "message": "Hello"
+                }
+            ],
+            "__v": 1
+        },
+        {
+            "_id": "63e56e1e2185d82e83b8cb4b",
+            "members": [
+                "63e55cb316532e96f9c58dd8",
+                "63e55d4016532e96f9c58de4"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "Hi there"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "Hello"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "message"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "thanks for your message"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "you are welcome"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "other message"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "other response"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "some text"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "some other text"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "some other other message"
+                }
+            ],
+            "__v": 10
+        },
+        {
+            "_id": "63e5731f2185d82e83b8cc0a",
+            "members": [
+                "63e55cb316532e96f9c58dd8",
+                "63e55ce516532e96f9c58dde"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "hi"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "hello"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "hi again"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "hello"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "123"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "test"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "res"
+                },
+                {
+                    "senderId": "63e55cb316532e96f9c58dd8",
+                    "senderName": "Krzysztof Lis",
+                    "message": "123"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "abc"
+                }
+            ],
+            "__v": 9
+        },
+        {
+            "_id": "63e5753c2185d82e83b8cd13",
+            "members": [
+                "63e55ce516532e96f9c58dde",
+                "63e55d4016532e96f9c58de4"
+            ],
+            "history": [
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "Hello"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "Hi"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": "this method of connecting socket to channels works better"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "i agree"
+                },
+                {
+                    "senderId": "63e55ce516532e96f9c58dde",
+                    "senderName": "Zuzanna Czarnecka",
+                    "message": ";)"
+                },
+                {
+                    "senderId": "63e55d4016532e96f9c58de4",
+                    "senderName": "Julia Przybylska",
+                    "message": "123"
+                }
+            ],
+            "__v": 6
+        },
+        {
+            "_id": "63f7d77b07cba887897dcf73",
+            "members": [
+                "63e554e116532e96f9c58afb",
+                "63e55d4016532e96f9c58de4"
+            ],
+            "history": [],
+            "__v": 0
+        }
+    ],
+
+    "nodes": [
+        {
+            "id": "0",
+            "name": "Jan Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "04.05.1984",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Wojciech Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "06.07.1958",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Janina Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "19.06.1939",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Anna Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "24.08.2006",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Robert Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "11.02.2003",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Ida Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "07.09.1939",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Franciszek Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "27.01.1937",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Jan Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "04.05.1984",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Male",
+                "Root"
+            ]
+        },
+        {
+            "id": "26",
+            "name": "Wojciech Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "06.07.1958",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "27",
+            "name": "Justyna Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "02.05.1952",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "28",
+            "name": "Robert Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "11.02.2003",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "29",
+            "name": "Anna Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "24.08.2006",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "30",
+            "name": "Franciszek Kowalski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "27.01.1937",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "31",
+            "name": "Janina Kowalska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "19.06.1939",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "32",
+            "name": "Albert Nowogrodzki",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "01.12.1937",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "33",
+            "name": "Małgorzata Nowogrodzka",
+            "birthDate": "09.03.1938",
+            "userId": "63e554e116532e96f9c58afb",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Kazimierz Szczęsny",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "35",
+            "name": "Jadwiga Sczęsna",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "36",
+            "name": "Joanna Kowalska",
+            "birthDate": "28.05.1986",
+            "userId": "63e554e116532e96f9c58afb",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "37",
+            "name": "Marian Nowak",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "38",
+            "name": "Piotr Nowak",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "39",
+            "name": "Filip Chmielewski",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "40",
+            "name": "Iga Nowak",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "41",
+            "name": "Ewelina Chmielewska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "42",
+            "name": "Kamila Chmielewska",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "43",
+            "name": "Aleks Szczęsny",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "44",
+            "name": "Celina Szczęsna",
+            "userId": "63e554e116532e96f9c58afb",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "46",
+            "name": "Ola Kowalczyk",
+            "userId": "63e55aad16532e96f9c58dc7",
+            "birthDate": "12.12.1998",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Female",
+                "Root"
+            ]
+        },
+        {
+            "id": "47",
+            "name": "Marcel Szymańczyk",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "30.01.1984",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Male",
+                "Root"
+            ]
+        },
+        {
+            "id": "48",
+            "name": "Krzysztof Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "03.04.1999",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Male",
+                "Root"
+            ]
+        },
+        {
+            "id": "49",
+            "name": "Zuzanna Czarnecka",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "25.10.2002",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Female",
+                "Root"
+            ]
+        },
+        {
+            "id": "50",
+            "name": "Julia Przybylska",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "19.08.2000",
+            "rootNode": true,
+            "labels": [
+                "Person",
+                "Female",
+                "Root"
+            ]
+        },
+        {
+            "id": "51",
+            "name": "Halina Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "52",
+            "name": "Alfred Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "53",
+            "name": "Olga Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "54",
+            "name": "Rafał Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Ola Kowalczyk",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "56",
+            "name": "Marcin Kowalczyk",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "57",
+            "name": "Weronika Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "30.07.2023",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "58",
+            "name": "Anastazja Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "02.14.1997",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "59",
+            "name": "Izabela Walczak",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "17.11.1961",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "60",
+            "name": "Damian Jaworski",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "61",
+            "name": "Alek Dąbrowski",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "62",
+            "name": "Maciej Laskowski",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "63",
+            "name": "Agata Rutkowska",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "64",
+            "name": "Patryk Rutkowski",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "65",
+            "name": "Daria Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "30.07.2023",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "66",
+            "name": "Diana Lis",
+            "userId": "63e55cb316532e96f9c58dd8",
+            "birthDate": "30.07.2023",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "67",
+            "name": "Franciszek Kowalski",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "27.01.1937",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "68",
+            "name": "Natalia Szymańczyk",
+            "birthDate": "19.08.1950",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "69",
+            "name": "Jarosław Szymańczyk",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "15.02.1949",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "70",
+            "name": "Janina Kowalska",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "19.06.1939",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "71",
+            "name": "Jan Kowalski",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "04.05.1984",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "72",
+            "name": "Wojciech Kowalski",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "06.07.1958",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "73",
+            "name": "Anna Kowalska",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "24.08.2006",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "74",
+            "name": "Robert Kowalski",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "11.02.2003",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "75",
+            "name": "Ida Kowalska",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "07.09.1939",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "76",
+            "name": "Adrian Szymańczyk",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "12.10.2003",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "77",
+            "name": "Łucja Szymańczyk",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "26.02.1985",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "78",
+            "name": "Jolanta Zielińska",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "79",
+            "name": "Leszek Zieliński",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "80",
+            "name": "Oksana Szymańczyk",
+            "userId": "63e55c6616532e96f9c58dd2",
+            "birthDate": "29.05.2020",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "81",
+            "name": "Justyna Kowalska",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "02.05.1952",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "82",
+            "name": "Albert Nowogrodzki",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "01.12.1937",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "83",
+            "name": "Małgorzata Nowogrodzka",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "09.03.1938",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "84",
+            "name": "Kazimierz Szczęsny",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "85",
+            "name": "Aleks Szczęsny",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "86",
+            "name": "Celina Szczęsna",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "87",
+            "name": "Jadwiga Szczęsna",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "88",
+            "name": "Aneta Czarnecka",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "12.03.1979",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "89",
+            "name": "Hubert Czarnecki",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "19.06.1976",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "91",
+            "name": "Karol Czarnecki",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "22.10.1951",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "92",
+            "name": "Anita Czarnecka",
+            "userId": "63e55ce516532e96f9c58dde",
+            "birthDate": "21.01.1950",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "93",
+            "name": "Lucjan Przybylski",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "94",
+            "name": "Milena Przybylska",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "95",
+            "name": "Leszek Przybylski",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "96",
+            "name": "Paulina Przybylska",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "97",
+            "name": "Przemysław Kowalczyk",
+            "birthDate": "",
+            "userId": "63e55d4016532e96f9c58de4",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "98",
+            "name": "Maja Kowalczyk",
+            "userId": "63e55d4016532e96f9c58de4",
+            "birthDate": "",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "99",
+            "name": "Przemysław Kowalczyk",
+            "birthDate": "02.11.1950",
+            "userId": "63e55aad16532e96f9c58dc7",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "100",
+            "name": "Maja Kowalczyk",
+            "userId": "63e55aad16532e96f9c58dc7",
+            "birthDate": "17.07.1949",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        },
+        {
+            "id": "101",
+            "name": "Julian Kowalczyk",
+            "userId": "63e55aad16532e96f9c58dc7",
+            "birthDate": "12.01.1975",
+            "labels": [
+                "Person",
+                "Male"
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Beata Kowalczyk",
+            "userId": "63e55aad16532e96f9c58dc7",
+            "birthDate": "16.06.1976",
+            "labels": [
+                "Person",
+                "Female"
+            ]
+        }
+    ],
+
+    "relations": [
+        {
+            "start": "0",
+            "end": "3",
+            "type": "Child"
+        },
+        {
+            "start": "3",
+            "end": "0",
+            "type": "Father"
+        },
+        {
+            "start": "1",
+            "end": "0",
+            "type": "Child"
+        },
+        {
+            "start": "0",
+            "end": "1",
+            "type": "Father"
+        },
+        {
+            "start": "0",
+            "end": "4",
+            "type": "Child"
+        },
+        {
+            "start": "4",
+            "end": "0",
+            "type": "Father"
+        },
+        {
+            "start": "6",
+            "end": "1",
+            "type": "Child"
+        },
+        {
+            "start": "1",
+            "end": "6",
+            "type": "Father"
+        },
+        {
+            "start": "2",
+            "end": "1",
+            "type": "Child"
+        },
+        {
+            "start": "1",
+            "end": "2",
+            "type": "Mother"
+        },
+        {
+            "start": "6",
+            "end": "25",
+            "type": "PossibleChild"
+        },
+        {
+            "start": "25",
+            "end": "6",
+            "type": "PossibleFather"
+        },
+        {
+            "start": "29",
+            "end": "25",
+            "type": "Father"
+        },
+        {
+            "start": "25",
+            "end": "29",
+            "type": "Child"
+        },
+        {
+            "start": "28",
+            "end": "25",
+            "type": "Father"
+        },
+        {
+            "start": "25",
+            "end": "28",
+            "type": "Child"
+        },
+        {
+            "start": "25",
+            "end": "27",
+            "type": "Mother"
+        },
+        {
+            "start": "27",
+            "end": "25",
+            "type": "Child"
+        },
+        {
+            "start": "25",
+            "end": "26",
+            "type": "Father"
+        },
+        {
+            "start": "26",
+            "end": "25",
+            "type": "Child"
+        },
+        {
+            "start": "31",
+            "end": "26",
+            "type": "Child"
+        },
+        {
+            "start": "26",
+            "end": "31",
+            "type": "Mother"
+        },
+        {
+            "start": "30",
+            "end": "26",
+            "type": "Child"
+        },
+        {
+            "start": "26",
+            "end": "30",
+            "type": "Father"
+        },
+        {
+            "start": "27",
+            "end": "33",
+            "type": "Mother"
+        },
+        {
+            "start": "33",
+            "end": "27",
+            "type": "Child"
+        },
+        {
+            "start": "27",
+            "end": "32",
+            "type": "Father"
+        },
+        {
+            "start": "32",
+            "end": "27",
+            "type": "Child"
+        },
+        {
+            "start": "36",
+            "end": "28",
+            "type": "Child"
+        },
+        {
+            "start": "28",
+            "end": "36",
+            "type": "Mother"
+        },
+        {
+            "start": "29",
+            "end": "36",
+            "type": "Mother"
+        },
+        {
+            "start": "36",
+            "end": "29",
+            "type": "Child"
+        },
+        {
+            "start": "35",
+            "end": "33",
+            "type": "Child"
+        },
+        {
+            "start": "33",
+            "end": "35",
+            "type": "Mother"
+        },
+        {
+            "start": "33",
+            "end": "34",
+            "type": "Father"
+        },
+        {
+            "start": "34",
+            "end": "33",
+            "type": "Child"
+        },
+        {
+            "start": "34",
+            "end": "44",
+            "type": "Mother"
+        },
+        {
+            "start": "44",
+            "end": "34",
+            "type": "Child"
+        },
+        {
+            "start": "43",
+            "end": "34",
+            "type": "Child"
+        },
+        {
+            "start": "34",
+            "end": "43",
+            "type": "Father"
+        },
+        {
+            "start": "36",
+            "end": "41",
+            "type": "Mother"
+        },
+        {
+            "start": "41",
+            "end": "36",
+            "type": "Child"
+        },
+        {
+            "start": "37",
+            "end": "36",
+            "type": "Child"
+        },
+        {
+            "start": "36",
+            "end": "37",
+            "type": "Father"
+        },
+        {
+            "start": "40",
+            "end": "37",
+            "type": "Child"
+        },
+        {
+            "start": "37",
+            "end": "40",
+            "type": "Mother"
+        },
+        {
+            "start": "38",
+            "end": "37",
+            "type": "Child"
+        },
+        {
+            "start": "37",
+            "end": "38",
+            "type": "Father"
+        },
+        {
+            "start": "39",
+            "end": "41",
+            "type": "Child"
+        },
+        {
+            "start": "41",
+            "end": "39",
+            "type": "Father"
+        },
+        {
+            "start": "42",
+            "end": "41",
+            "type": "Child"
+        },
+        {
+            "start": "41",
+            "end": "42",
+            "type": "Mother"
+        },
+        {
+            "start": "102",
+            "end": "46",
+            "type": "Child"
+        },
+        {
+            "start": "46",
+            "end": "102",
+            "type": "Mother"
+        },
+        {
+            "start": "101",
+            "end": "46",
+            "type": "Child"
+        },
+        {
+            "start": "46",
+            "end": "101",
+            "type": "Father"
+        },
+        {
+            "start": "80",
+            "end": "47",
+            "type": "Father"
+        },
+        {
+            "start": "47",
+            "end": "80",
+            "type": "Child"
+        },
+        {
+            "start": "76",
+            "end": "47",
+            "type": "Father"
+        },
+        {
+            "start": "47",
+            "end": "76",
+            "type": "Child"
+        },
+        {
+            "start": "69",
+            "end": "47",
+            "type": "Child"
+        },
+        {
+            "start": "47",
+            "end": "69",
+            "type": "Father"
+        },
+        {
+            "start": "68",
+            "end": "47",
+            "type": "Child"
+        },
+        {
+            "start": "47",
+            "end": "68",
+            "type": "Mother"
+        },
+        {
+            "start": "48",
+            "end": "66",
+            "type": "Child"
+        },
+        {
+            "start": "66",
+            "end": "48",
+            "type": "Father"
+        },
+        {
+            "start": "48",
+            "end": "65",
+            "type": "Child"
+        },
+        {
+            "start": "65",
+            "end": "48",
+            "type": "Father"
+        },
+        {
+            "start": "48",
+            "end": "57",
+            "type": "Child"
+        },
+        {
+            "start": "57",
+            "end": "48",
+            "type": "Father"
+        },
+        {
+            "start": "48",
+            "end": "51",
+            "type": "Mother"
+        },
+        {
+            "start": "51",
+            "end": "48",
+            "type": "Child"
+        },
+        {
+            "start": "48",
+            "end": "52",
+            "type": "Father"
+        },
+        {
+            "start": "52",
+            "end": "48",
+            "type": "Child"
+        },
+        {
+            "start": "89",
+            "end": "49",
+            "type": "Child"
+        },
+        {
+            "start": "49",
+            "end": "89",
+            "type": "Father"
+        },
+        {
+            "start": "88",
+            "end": "49",
+            "type": "Child"
+        },
+        {
+            "start": "49",
+            "end": "88",
+            "type": "Mother"
+        },
+        {
+            "start": "94",
+            "end": "50",
+            "type": "Child"
+        },
+        {
+            "start": "50",
+            "end": "94",
+            "type": "Mother"
+        },
+        {
+            "start": "93",
+            "end": "50",
+            "type": "Child"
+        },
+        {
+            "start": "50",
+            "end": "93",
+            "type": "Father"
+        },
+        {
+            "start": "55",
+            "end": "51",
+            "type": "Child"
+        },
+        {
+            "start": "51",
+            "end": "55",
+            "type": "Mother"
+        },
+        {
+            "start": "51",
+            "end": "56",
+            "type": "Father"
+        },
+        {
+            "start": "56",
+            "end": "51",
+            "type": "Child"
+        },
+        {
+            "start": "53",
+            "end": "52",
+            "type": "Child"
+        },
+        {
+            "start": "52",
+            "end": "53",
+            "type": "Mother"
+        },
+        {
+            "start": "54",
+            "end": "52",
+            "type": "Child"
+        },
+        {
+            "start": "52",
+            "end": "54",
+            "type": "Father"
+        },
+        {
+            "start": "53",
+            "end": "64",
+            "type": "Father"
+        },
+        {
+            "start": "64",
+            "end": "53",
+            "type": "Child"
+        },
+        {
+            "start": "53",
+            "end": "63",
+            "type": "Mother"
+        },
+        {
+            "start": "63",
+            "end": "53",
+            "type": "Child"
+        },
+        {
+            "start": "57",
+            "end": "58",
+            "type": "Mother"
+        },
+        {
+            "start": "58",
+            "end": "57",
+            "type": "Child"
+        },
+        {
+            "start": "58",
+            "end": "60",
+            "type": "PossibleFather"
+        },
+        {
+            "start": "61",
+            "end": "58",
+            "type": "PossibleChild"
+        },
+        {
+            "start": "60",
+            "end": "58",
+            "type": "PossibleChild"
+        },
+        {
+            "start": "58",
+            "end": "61",
+            "type": "PossibleFather"
+        },
+        {
+            "start": "62",
+            "end": "58",
+            "type": "PossibleChild"
+        },
+        {
+            "start": "58",
+            "end": "62",
+            "type": "PossibleFather"
+        },
+        {
+            "start": "59",
+            "end": "58",
+            "type": "Child"
+        },
+        {
+            "start": "58",
+            "end": "59",
+            "type": "Mother"
+        },
+        {
+            "start": "67",
+            "end": "72",
+            "type": "Child"
+        },
+        {
+            "start": "72",
+            "end": "67",
+            "type": "Father"
+        },
+        {
+            "start": "68",
+            "end": "67",
+            "type": "Father"
+        },
+        {
+            "start": "67",
+            "end": "68",
+            "type": "Child"
+        },
+        {
+            "start": "68",
+            "end": "70",
+            "type": "PossibleMother"
+        },
+        {
+            "start": "70",
+            "end": "68",
+            "type": "PossibleChild"
+        },
+        {
+            "start": "75",
+            "end": "68",
+            "type": "Child"
+        },
+        {
+            "start": "68",
+            "end": "75",
+            "type": "Mother"
+        },
+        {
+            "start": "72",
+            "end": "70",
+            "type": "Mother"
+        },
+        {
+            "start": "70",
+            "end": "72",
+            "type": "Child"
+        },
+        {
+            "start": "72",
+            "end": "71",
+            "type": "Child"
+        },
+        {
+            "start": "71",
+            "end": "74",
+            "type": "Child"
+        },
+        {
+            "start": "74",
+            "end": "71",
+            "type": "Father"
+        },
+        {
+            "start": "71",
+            "end": "72",
+            "type": "Father"
+        },
+        {
+            "start": "73",
+            "end": "71",
+            "type": "Father"
+        },
+        {
+            "start": "71",
+            "end": "73",
+            "type": "Child"
+        },
+        {
+            "start": "76",
+            "end": "77",
+            "type": "Mother"
+        },
+        {
+            "start": "77",
+            "end": "76",
+            "type": "Child"
+        },
+        {
+            "start": "77",
+            "end": "80",
+            "type": "Child"
+        },
+        {
+            "start": "80",
+            "end": "77",
+            "type": "Mother"
+        },
+        {
+            "start": "77",
+            "end": "79",
+            "type": "Father"
+        },
+        {
+            "start": "79",
+            "end": "77",
+            "type": "Child"
+        },
+        {
+            "start": "78",
+            "end": "77",
+            "type": "Child"
+        },
+        {
+            "start": "77",
+            "end": "78",
+            "type": "Mother"
+        },
+        {
+            "start": "88",
+            "end": "81",
+            "type": "Mother"
+        },
+        {
+            "start": "81",
+            "end": "88",
+            "type": "Child"
+        },
+        {
+            "start": "83",
+            "end": "81",
+            "type": "Child"
+        },
+        {
+            "start": "81",
+            "end": "83",
+            "type": "Mother"
+        },
+        {
+            "start": "82",
+            "end": "81",
+            "type": "Child"
+        },
+        {
+            "start": "81",
+            "end": "82",
+            "type": "Father"
+        },
+        {
+            "start": "87",
+            "end": "83",
+            "type": "Child"
+        },
+        {
+            "start": "83",
+            "end": "87",
+            "type": "Mother"
+        },
+        {
+            "start": "84",
+            "end": "83",
+            "type": "Child"
+        },
+        {
+            "start": "83",
+            "end": "84",
+            "type": "Father"
+        },
+        {
+            "start": "84",
+            "end": "86",
+            "type": "Mother"
+        },
+        {
+            "start": "86",
+            "end": "84",
+            "type": "Child"
+        },
+        {
+            "start": "85",
+            "end": "84",
+            "type": "Child"
+        },
+        {
+            "start": "84",
+            "end": "85",
+            "type": "Father"
+        },
+        {
+            "start": "89",
+            "end": "92",
+            "type": "Mother"
+        },
+        {
+            "start": "92",
+            "end": "89",
+            "type": "Child"
+        },
+        {
+            "start": "91",
+            "end": "89",
+            "type": "Child"
+        },
+        {
+            "start": "89",
+            "end": "91",
+            "type": "Father"
+        },
+        {
+            "start": "93",
+            "end": "96",
+            "type": "Mother"
+        },
+        {
+            "start": "96",
+            "end": "93",
+            "type": "Child"
+        },
+        {
+            "start": "95",
+            "end": "93",
+            "type": "Child"
+        },
+        {
+            "start": "93",
+            "end": "95",
+            "type": "Father"
+        },
+        {
+            "start": "98",
+            "end": "94",
+            "type": "Child"
+        },
+        {
+            "start": "94",
+            "end": "98",
+            "type": "Mother"
+        },
+        {
+            "start": "94",
+            "end": "97",
+            "type": "Father"
+        },
+        {
+            "start": "97",
+            "end": "94",
+            "type": "Child"
+        },
+        {
+            "start": "101",
+            "end": "99",
+            "type": "Father"
+        },
+        {
+            "start": "99",
+            "end": "101",
+            "type": "Child"
+        },
+        {
+            "start": "101",
+            "end": "100",
+            "type": "Mother"
+        },
+        {
+            "start": "100",
+            "end": "101",
+            "type": "Child"
+        }
+    ]
+}

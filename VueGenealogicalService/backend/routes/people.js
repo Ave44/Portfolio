@@ -23,6 +23,27 @@ router.get('/', async (req, res) => {
         })
 })
 
+router.get('/withLabels', async (req, res) => {
+    const people = []
+
+    const session = driver.session()
+    await session.run('MATCH (p:Person) RETURN p')
+        .subscribe({
+            onNext: record => {
+                const person = {id: record.get(0).elementId, ...record.get(0).properties, labels: record.get(0).labels}
+                people.push(person)
+            },
+            onCompleted: () => {
+                session.close()
+                return res.send(people)
+            },
+            onError: error => {
+                session.close()
+                return res.status(500).send({error})
+            }
+        })
+})
+
 router.get('/:id', async (req, res) => {
     let person = null
     const id = req.params.id

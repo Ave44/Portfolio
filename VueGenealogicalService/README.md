@@ -135,7 +135,8 @@ SECRET = '3p53k63nai6l0w8b1n68'
 
 PORT = 5000
 ```
-4. Run `node index.js`
+4. Run `node setUpInitData.js` to populate your newly created databases
+5. Run `node index.js`
 
 ## Security
 Backend is securied with *passport* using JWT strategy. Users passwords are safely stored in database encrypted and salted with *bcryptjs*. All backend routes *(beside two routes for signing in and logging in)* are protected with use of middleware.
@@ -209,6 +210,7 @@ All routes have theirs corresponding postman test that are prsenting theirs func
 ### Neo4j
 - People
   - GET &ensp; `/people` - get all people from database
+  - GET &ensp; `/people/withLabels` - get all people with labels from database
   - GET &ensp; `/people/:id` - get person by id
   - GET &ensp; `/people/root/:userId` - get root node of user
   - POST `/people` - create person
@@ -228,22 +230,23 @@ All routes have theirs corresponding postman test that are prsenting theirs func
   - GET &ensp; `/people/parents/:id` - get parents of person
   - GET &ensp; `/people/children/:id` - get children of person
 - Relations
-  - POST `/relations/setMother` - set mother-child relations between two nodes
-  - PUT &ensp; `/relations/updateMother` - change mother-child relations between three nodes
-  - DEL &ensp; `/relations/delMother` - delete mother-child relations between two nodes
-  - POST `/relations/setFather` - set father-child relations between two nodes
-  - PUT &ensp; `/relations/updateFather` - change father-child relations between three nodes
-  - DEL &ensp; `/relations/delFather` - delete father-child relations between two nodes
-  - POST `/relations/setPossibleMothers` - set possibleMother-possibleChild relations between many nodes
-  - PUT &ensp; `/relations/changePossibleMothers` - change possibleMother-possibleChild relations between many nodes
-  - DEL &ensp; `/relations/delPossibleMothers` - delete possibleMother-possibleChild relations between many nodes
-  - POST `/relations/setPossibleFathers` - set possibleFather-possibleChild relations between many nodes
-  - PUT &ensp; `/relations/changePossibleFathers` - change possibleFather-possibleChild relations between many nodes
-  - DEL &ensp; `/relations/delPossibleFathers` - delete possibleFather-possibleChild relations between many nodes
-  - POST `/relations/setChildren` - set mother-child or father-child relations
-  - DEL &ensp; `/relations/delChildren` - delete mother-child or father-child relations
-  - POST `/relations/getPeopleRelations` - get selected people relations
-  - POST `/relations/copyFatherRelations` - copy selected father-child relations based on *originalId* property
-  - POST `/relations/copyMotherRelations` - copy selected mother-child relations based on *originalId* property
-  - POST `/relations/copyPossibleFatherRelations` - copy selected possibleFather-possibleChild relations based on *originalId* property
-  - POST `/relations/copyPossibleMotherRelations` - copy selected possibleMother-possibleChild relations based on *originalId* property
+  - GET &ensp; `/people/relations` - get all relations from database
+  - POST `/people/relations/setMother` - set mother-child relations between two nodes
+  - PUT &ensp; `/people/relations/updateMother` - change mother-child relations between three nodes
+  - DEL &ensp; `/people/relations/delMother` - delete mother-child relations between two nodes
+  - POST `/people/relations/setFather` - set father-child relations between two nodes
+  - PUT &ensp; `/people/relations/updateFather` - change father-child relations between three nodes
+  - DEL &ensp; `/people/relations/delFather` - delete father-child relations between two nodes
+  - POST `/people/relations/setPossibleMothers` - set possibleMother-possibleChild relations between many nodes
+  - PUT &ensp; `/people/relations/changePossibleMothers` - change possibleMother-possibleChild relations between many nodes
+  - DEL &ensp; `/people/relations/delPossibleMothers` - delete possibleMother-possibleChild relations between many nodes
+  - POST `/people/relations/setPossibleFathers` - set possibleFather-possibleChild relations between many nodes
+  - PUT &ensp; `/people/relations/changePossibleFathers` - change possibleFather-possibleChild relations between many nodes
+  - DEL &ensp; `/people/relations/delPossibleFathers` - delete possibleFather-possibleChild relations between many nodes
+  - POST `/people/relations/setChildren` - set mother-child or father-child relations
+  - DEL &ensp; `/people/relations/delChildren` - delete mother-child or father-child relations
+  - POST `/people/relations/getPeopleRelations` - get selected people relations
+  - POST `/people/relations/copyFatherRelations` - copy selected father-child relations based on *originalId* property
+  - POST `/people/relations/copyMotherRelations` - copy selected mother-child relations based on *originalId* property
+  - POST `/people/relations/copyPossibleFatherRelations` - copy selected possibleFather-possibleChild relations based on *originalId* property
+  - POST `/people/relations/copyPossibleMotherRelations` - copy selected possibleMother-possibleChild relations based on *originalId* property
