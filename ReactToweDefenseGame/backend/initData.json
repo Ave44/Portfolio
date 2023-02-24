@@ -1,0 +1,317 @@
+{
+    "towers": [
+        {
+            "id": 19,
+            "label": "archMage",
+            "name": "Arch Mage",
+            "img": "archMage",
+            "type": "magical",
+            "mindamage": 10,
+            "maxdamage": 50,
+            "speed": 7,
+            "range": 5,
+            "cost": 300
+        },
+        {
+            "id": 4,
+            "label": "forestArchers",
+            "name": "Forest Archers",
+            "img": "forestArchers",
+            "type": "physical",
+            "mindamage": 6,
+            "maxdamage": 8,
+            "speed": 1,
+            "range": 3,
+            "cost": 180
+        },
+        {
+            "id": 5,
+            "label": "armyArchers",
+            "name": "Army Archers",
+            "img": "armyArchers",
+            "type": "physical",
+            "mindamage": 10,
+            "maxdamage": 12,
+            "speed": 2,
+            "range": 3,
+            "cost": 200
+        },
+        {
+            "id": 6,
+            "label": "mage",
+            "name": "Mage",
+            "img": "mage",
+            "type": "magical",
+            "mindamage": 1,
+            "maxdamage": 30,
+            "speed": 1,
+            "range": 5,
+            "cost": 120
+        },
+        {
+            "id": 1,
+            "label": "archers",
+            "name": "Archers",
+            "img": "archers",
+            "type": "physical",
+            "mindamage": 1,
+            "maxdamage": 4,
+            "speed": 2,
+            "range": 2,
+            "cost": 80
+        },
+        {
+            "id": 10,
+            "label": "peasants",
+            "name": "Peasants",
+            "img": "peasants",
+            "type": "physical",
+            "mindamage": 3,
+            "maxdamage": 6,
+            "speed": 2,
+            "range": 1,
+            "cost": 60
+        },
+        {
+            "id": 9,
+            "label": "eliteArchers",
+            "name": "Elite Archers",
+            "img": "eliteArchers",
+            "type": "physical",
+            "mindamage": 22,
+            "maxdamage": 26,
+            "speed": 1,
+            "range": 4,
+            "cost": 450
+        },
+        {
+            "id": 11,
+            "label": "picinieres",
+            "name": "Picinieres",
+            "img": "picinieres",
+            "type": "physical",
+            "mindamage": 10,
+            "maxdamage": 18,
+            "speed": 2,
+            "range": 1,
+            "cost": 200
+        },
+        {
+            "id": 12,
+            "label": "elitePicinieres",
+            "name": "Elite Picinieres",
+            "img": "elitePicinieres",
+            "type": "physical",
+            "mindamage": 38,
+            "maxdamage": 48,
+            "speed": 1,
+            "range": 2,
+            "cost": 400
+        }
+    ],
+
+    "enemies": [
+        {
+            "id": 1,
+            "label": "goblin",
+            "name": "Goblin",
+            "hp": 10,
+            "maxhp": 10,
+            "speed": 0.5,
+            "loss": 1,
+            "armor": 0,
+            "magicresistance": 0,
+            "gold": 5,
+            "img": "goblin"
+        },
+        {
+            "id": 18,
+            "label": "smallWoolf",
+            "name": "Small Woolf",
+            "hp": 10,
+            "maxhp": 10,
+            "speed": 1,
+            "loss": 1,
+            "armor": 0,
+            "magicresistance": 0,
+            "gold": 5,
+            "img": "smallWoolf"
+        },
+        {
+            "id": 21,
+            "label": "woolf",
+            "name": "Woolf",
+            "hp": 30,
+            "maxhp": 30,
+            "speed": 1,
+            "loss": 1,
+            "armor": 0,
+            "magicresistance": 0.15,
+            "gold": 10,
+            "img": "woolf"
+        },
+        {
+            "id": 20,
+            "label": "goblinArmored",
+            "name": "Goblin Armored",
+            "hp": 15,
+            "maxhp": 15,
+            "speed": 0.5,
+            "loss": 1,
+            "armor": 0.3,
+            "magicresistance": 0,
+            "gold": 7,
+            "img": "goblinArmored"
+        },
+        {
+            "id": 19,
+            "label": "orcArmored",
+            "name": "Orc Armored",
+            "hp": 50,
+            "maxhp": 50,
+            "speed": 0.3333333333333333,
+            "loss": 1,
+            "armor": 0.75,
+            "magicresistance": 0,
+            "gold": 15,
+            "img": "orcArmored"
+        },
+        {
+            "id": 7,
+            "label": "unknown",
+            "name": "Unknown",
+            "hp": 20,
+            "maxhp": 999,
+            "speed": 0.125,
+            "loss": 1,
+            "armor": 0.36,
+            "magicresistance": 0.78,
+            "gold": 1,
+            "img": "not working"
+        },
+        {
+            "id": 22,
+            "label": "orcCheftain",
+            "name": "Orc Cheftain",
+            "hp": 100,
+            "maxhp": 100,
+            "speed": 0.25,
+            "loss": 20,
+            "armor": 0.9,
+            "magicresistance": 0.1,
+            "gold": 125,
+            "img": "orcCheftain"
+        },
+        {
+            "id": 5,
+            "label": "orc",
+            "name": "Orc",
+            "hp": 25,
+            "maxhp": 25,
+            "speed": 0.3333333333333333,
+            "loss": 2,
+            "armor": 0.05,
+            "magicresistance": 0,
+            "gold": 10,
+            "img": "orc"
+        }
+    ],
+    
+    "upgrades": [
+        {
+            "id": 1,
+            "label1": "archers",
+            "label2": "forestArchers",
+            "name": "Forest Archers",
+            "cost": 100
+        },
+        {
+            "id": 11,
+            "label1": "armyArchers",
+            "label2": "eliteArchers",
+            "name": "Elite Archers",
+            "cost": 250
+        },
+        {
+            "id": 12,
+            "label1": "peasants",
+            "label2": "picinieres",
+            "name": "Picinieres",
+            "cost": 120
+        },
+        {
+            "id": 13,
+            "label1": "picinieres",
+            "label2": "elitePicinieres",
+            "name": "Elite Picinieres",
+            "cost": 240
+        },
+        {
+            "id": 14,
+            "label1": "mage",
+            "label2": "archMage",
+            "name": "Arch Mage",
+            "cost": 200
+        },
+        {
+            "id": 2,
+            "label1": "archers",
+            "label2": "armyArchers",
+            "name": "Army Archers",
+            "cost": 140
+        }
+    ],
+
+    "levels": [
+        {
+            "id": 2,
+            "name": "Goblin camp",
+            "width": 10,
+            "height": 6,
+            "path": "10 11 12 22 32 42 43 44 34 24 14 15 16 26 36 46 47 48 38 39",
+            "waves": "goblin, goblin goblin, ,,,goblin,,goblin,,goblin,,goblin,goblin goblin . goblin goblin, goblin goblin goblin,goblin,,goblin, goblin,,goblin goblin,,goblin,goblin . goblin goblin,goblin,goblin goblin,,goblin goblin goblin,,goblin goblin,goblin,,goblin,goblin,,goblin . goblin goblin goblin goblin",
+            "gold": 180,
+            "startingtowers": "archers peasants mage"
+        },
+        {
+            "id": 9,
+            "name": "Small map for testing",
+            "width": 4,
+            "height": 4,
+            "path": "0 1 5 9 13 14 15",
+            "waves": "goblin,goblin,,goblin goblin      .      goblin,,goblin,,goblin      .       goblin goblin goblin,,,,goblin goblin,goblin,goblin goblin .goblin, orcArmored",
+            "gold": 220,
+            "startingtowers": "archers peasants mage"
+        },
+        {
+            "id": 8,
+            "name": "Orcs Ambush",
+            "width": 10,
+            "height": 6,
+            "path": "10 11 21 22 32 33 43 44 45 35 25 15 16 17 18 28 38 39",
+            "waves": "goblin,,goblin,,goblin,,goblin goblin,goblin,,,goblin,goblin goblin ,smallWoolf,smallWoolf,,smallWoolf,smallWoolf                  .                   goblin goblin,goblin goblin,,,orc,,,,goblin,,goblin goblin,orc,orc,,,,orc,,orc,,orc,orc,orc goblin,,goblin goblin,,orc,,goblin,,goblin,,orc orc             .            orcArmored           .            woolf,,woolf,,woolf,,goblinArmored,,goblinArmored,,goblinArmored,,goblinArmored goblinArmored,,goblinArmored goblinArmored,,,,,,woolf,,woolf,,woolf,,orcArmored,orcArmored,orcArmored,,,,,,woolf,,woolf,,woolf . woolf,orcCheftain",
+            "gold": 320,
+            "startingtowers": "archers peasants mage"
+        },
+        {
+            "id": 19,
+            "name": "Very long map for testing",
+            "width": 32,
+            "height": 4,
+            "path": "32 33 34 35 36 37 5 6 7 8 40 72 104 105 106 74 42 10 11 12 44 76 108 109 110 78 46 14 15 16 48 80 81 82 50 18 19 20 52 53 21 22 54 55 23 24 56 57 25 26 58 59 27 28 60 92 124 125 126 127",
+            "waves": "goblin,goblin,goblin,,,,,,,,,goblin . goblin . goblin . goblin",
+            "gold": 200,
+            "startingtowers": "archers peasants mage"
+        },
+        {
+            "id": 1,
+            "name": "Tutorial",
+            "width": 8,
+            "height": 8,
+            "path": "1 9 17 25 33 34 35 27 19 20 21 29 37 45 53 54 55",
+            "waves": "goblin,,goblin,,,,goblin goblin,goblin,,goblin,goblinArmored goblin goblin,goblin goblin,,goblin goblin,,goblin,goblin goblin . goblin,goblin,,goblin goblin,,goblin,,goblin,,goblin goblin,goblin,,goblinArmored goblin goblin . goblin,goblin,,,goblin,,goblin goblin,,goblin goblin goblin,,goblin,goblin,,goblin goblin,goblin goblinArmored,goblin,,,,,,,orc",
+            "gold": 220,
+            "startingtowers": "archers peasants mage"
+        }
+    ]
+}

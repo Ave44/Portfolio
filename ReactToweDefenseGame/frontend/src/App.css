@@ -1,0 +1,871 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body input {
+  font-family: 'Press Start 2P', cursive;
+  border: black 2px solid;
+  padding: 2px;
+}
+
+body .topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #4b4b4b;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .main {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  padding: 50px;
+  border: black 5px solid;
+  margin-bottom: 20px;
+}
+
+body .main .title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+body .main .send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main .send .button {
+  width: 200px;
+  margin: 0;
+}
+
+body .main .send input {
+  height: 35px;
+  width: 350px;
+}
+
+body .main .log {
+  width: 250px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 20px;
+}
+
+body .chat {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 25px;
+  border: black 3px solid;
+  list-style-type: none;
+  line-height: 20px;
+}
+
+body .button {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  padding: 10px;
+  border: black 3px solid;
+  width: 120px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body .button:hover {
+  border: black 3px dashed;
+}
+
+body .content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 61px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .content .header {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content .header .title {
+  margin: 20px;
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+body .content .header .button {
+  margin: 0;
+  margin-right: 20px;
+}
+
+body .content .header input {
+  margin: 0;
+}
+
+body .content .upgrade {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  border: black 5px solid;
+  padding: 20px;
+  width: 450px;
+  margin: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content .upgrade .text {
+  margin: auto;
+  line-height: 30px;
+}
+
+body .content .list {
+  background-color: #4b4b4b;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  -ms-grid-columns: 250px 250px 250px 250px;
+      grid-template-columns: 250px 250px 250px 250px;
+  justify-items: center;
+  row-gap: 20px;
+}
+
+body .content .list .item {
+  background-image: url("./game/images/upgradeBackground.png");
+  background-size: contain;
+  border: black 5px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 20px;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+body .content .list .item .image {
+  width: 200px;
+  margin-bottom: 10px;
+  background-image: url("./game//images/tile.png");
+  background-size: contain;
+}
+
+body .content .list .item .path {
+  background-image: url("./game/images/pathHorizontal.png");
+  background-size: contain;
+}
+
+body .content .list .item .title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+body .content .list .item .margin {
+  margin-top: 20px;
+}
+
+body .content .list .item .withImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content .list .item .small-image {
+  height: 15px;
+  position: relative;
+  left: 5px;
+}
+
+body .content .list .item:hover {
+  border: black dashed 5px;
+}
+
+body .form {
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  padding: 40px;
+  margin-top: 75px;
+  border: black solid 5px;
+}
+
+body .form .header {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+body .form .title {
+  font-size: 20px;
+}
+
+body .form .input {
+  margin: 10px;
+}
+
+body .form .dmgFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body .form .dmgFlex input {
+  width: 70px;
+  position: relative;
+  top: -3px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+body .form .radioFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 15px;
+}
+
+body .form .radioFlex div {
+  margin: 5px;
+}
+
+body .form .radioFlex div input {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .form .radioFlex div label {
+  position: relative;
+  top: 1px;
+  left: 7px;
+}
+
+body .form .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: -15px;
+  margin: 5px;
+}
+
+body .form .slider div {
+  width: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body .form .slider .margin {
+  position: relative;
+  left: 180px;
+}
+
+body .form .slider .lower {
+  position: relative;
+  top: 15px;
+}
+
+body .form .slider input {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .form .slider .rangeWraper {
+  width: 0;
+}
+
+body .form .slider .rangeWraper .range {
+  position: relative;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  border: black 1px solid;
+}
+
+body .form .textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: black 2px solid;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  line-height: 15px;
+  width: 450px;
+  height: 200px;
+}
+
+body .form .map {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: black 2px solid;
+}
+
+body .form .mapField {
+  width: 25px;
+  height: 25px;
+  border: black 2px solid;
+  background-image: url("./game//images/tile.png");
+  background-size: contain;
+}
+
+body .form .mapField:hover {
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
+}
+
+body .form .path {
+  background-image: none;
+  background-color: #df813e;
+}
+
+body .statistics {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  background-image: url("./game//images/upgradeBackground.png");
+  background-size: contain;
+  padding: 15px;
+}
+
+body .statistics .statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .statistics .statistic .margins {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+body .statistics .statistic .image {
+  height: 15px;
+  position: relative;
+  top: -2px;
+}
+
+body .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 800px;
+  background-color: #2b2b2b;
+  overflow: hidden;
+}
+
+body .map .tile {
+  margin: 0;
+  background-image: url("./game//images/tile.png");
+  background-size: contain;
+}
+
+body .map .tile .tower {
+  margin: 0;
+  position: relative;
+}
+
+body .map .tile .tower .upgrades {
+  display: none;
+  z-index: 2;
+  position: absolute;
+}
+
+body .map .tile .tower .upgrades .upgrade {
+  background-image: url("./game/images/upgradeBackground.png");
+  background-size: contain;
+  padding: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+  border: black solid 2px;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+}
+
+body .map .tile .tower .upgrades .upgrade .cost {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+body .map .tile .tower .upgrades .upgrade .coin {
+  height: 10px;
+}
+
+body .map .tile .tower .upgrades .upgrade:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+  border: black dashed 2px;
+}
+
+body .map .tile .tower .upgrades .gray {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .map .tile .tower .upgrades .gray:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .map .tile .tower .sellWraper {
+  display: none;
+  position: relative;
+  z-index: 3;
+}
+
+body .map .tile .tower .sellWraper .sell {
+  border: black solid 2px;
+  background-image: url("./game/images/upgradeBackground.png");
+  background-size: contain;
+  width: 18px;
+  padding: 7px;
+  padding-right: 5px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+body .map .tile .tower .sellWraper .sell:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+  border: black dashed 2px;
+}
+
+body .map .tile .tower .range {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  -webkit-filter: opacity(20%);
+          filter: opacity(20%);
+}
+
+body .map .tile .options {
+  display: none;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  z-index: 2;
+}
+
+body .map .tile .options .option {
+  background-image: url("./game/images/upgradeBackground.png");
+  background-size: contain;
+  padding: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+  border: black solid 2px;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+}
+
+body .map .tile .options .option .cost {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+body .map .tile .options .option .coin {
+  height: 10px;
+}
+
+body .map .tile .options .option:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+  border: black dashed 2px;
+}
+
+body .map .tile .options .gray {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .map .tile .options .gray:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .map .tile .options:hover {
+  display: block;
+}
+
+body .map .tile:hover img {
+  z-index: 2;
+}
+
+body .map .tile:hover .upgrades {
+  display: block;
+}
+
+body .map .tile:hover .sellWraper {
+  display: block;
+}
+
+body .map .tile:hover .range {
+  display: block;
+}
+
+body .map .tile:hover .range:hover {
+  display: none;
+}
+
+body .map .tile:active .options {
+  display: block;
+}
+
+body .map .path {
+  background-size: contain;
+}
+
+body .map .Horizontal {
+  background-image: url("./game//images/pathHorizontal.png");
+}
+
+body .map .Vertical {
+  background-image: url("./game//images/pathVertical.png");
+}
+
+body .map .Turn0 {
+  background-image: url("./game//images/pathTurn.png");
+}
+
+body .map .Turn90 {
+  background-image: url("./game//images/pathTurn90.png");
+}
+
+body .map .Turn180 {
+  background-image: url("./game//images/pathTurn180.png");
+}
+
+body .map .Turn270 {
+  background-image: url("./game//images/pathTurn270.png");
+}
+
+body .map .enemy {
+  height: 0;
+  width: 0;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+body .map .enemy .hpBar {
+  height: 0px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .map .enemy .hpBar .green {
+  background-color: green;
+  height: 3px;
+}
+
+body .map .enemy .hpBar .gray {
+  background-color: gray;
+  height: 3px;
+}
+
+body .endScreen {
+  background-image: url("./game/images/upgradeBackground.png");
+  background-size: contain;
+  padding: 50px;
+  font-size: 25px;
+  border: black 5px solid;
+}
+
+@-webkit-keyframes moveDown {
+  to {
+    -webkit-transform: translateY(var(--size));
+            transform: translateY(var(--size));
+  }
+}
+
+@keyframes moveDown {
+  to {
+    -webkit-transform: translateY(var(--size));
+            transform: translateY(var(--size));
+  }
+}
+
+@-webkit-keyframes moveUp {
+  to {
+    -webkit-transform: translateY(calc(-1*var(--size)));
+            transform: translateY(calc(-1*var(--size)));
+  }
+}
+
+@keyframes moveUp {
+  to {
+    -webkit-transform: translateY(calc(-1*var(--size)));
+            transform: translateY(calc(-1*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveRight {
+  to {
+    -webkit-transform: translateX(var(--size));
+            transform: translateX(var(--size));
+  }
+}
+
+@keyframes moveRight {
+  to {
+    -webkit-transform: translateX(var(--size));
+            transform: translateX(var(--size));
+  }
+}
+
+@-webkit-keyframes moveLeft {
+  to {
+    -webkit-transform: translateX(calc(-1*var(--size)));
+            transform: translateX(calc(-1*var(--size)));
+  }
+}
+
+@keyframes moveLeft {
+  to {
+    -webkit-transform: translateX(calc(-1*var(--size)));
+            transform: translateX(calc(-1*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveDownRight {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@keyframes moveDownRight {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveRightDown {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@keyframes moveRightDown {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveLeftDown {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@keyframes moveLeftDown {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveDownLeft {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@keyframes moveDownLeft {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveRightUp {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@keyframes moveRightUp {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveUpRight {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@keyframes moveUpRight {
+  to {
+    -webkit-transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveLeftUp {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@keyframes moveLeftUp {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@-webkit-keyframes moveUpLeft {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@keyframes moveUpLeft {
+  to {
+    -webkit-transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+            transform: translate(calc(-0.5*var(--size)), calc(-0.5*var(--size)));
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body .content .list {
+    -ms-grid-columns: 250px 250px;
+        grid-template-columns: 250px 250px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
