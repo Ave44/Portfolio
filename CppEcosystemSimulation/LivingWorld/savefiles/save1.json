@@ -1,0 +1,2346 @@
+{
+    "lineageNodes": [
+        {
+            "birthTurn": 0,
+            "deathTurn": 3,
+            "organismId": 1
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 3,
+            "organismId": 2
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 9,
+            "organismId": 3
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 9,
+            "organismId": 4
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 9,
+            "organismId": 5
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 9,
+            "organismId": 6
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 7
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 8
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 9
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 10
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 11
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 4,
+            "organismId": 12
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 13
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 1,
+            "organismId": 14
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 0,
+            "organismId": 15
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 16
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 17
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 18
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 19
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 20
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 21
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 1,
+            "organismId": 22
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 23
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 3,
+            "organismId": 24
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 25
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 5,
+            "organismId": 26
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": -1,
+            "organismId": 27
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 3,
+            "organismId": 28
+        },
+        {
+            "birthTurn": 0,
+            "deathTurn": 11,
+            "organismId": 29
+        },
+        {
+            "birthTurn": 1,
+            "deathTurn": 5,
+            "organismId": 30
+        },
+        {
+            "birthTurn": 1,
+            "deathTurn": 6,
+            "organismId": 31
+        },
+        {
+            "birthTurn": 1,
+            "deathTurn": 6,
+            "organismId": 32
+        },
+        {
+            "birthTurn": 1,
+            "deathTurn": 2,
+            "organismId": 33
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 34
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 35
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 36
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 7,
+            "organismId": 37
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 38
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 39
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 40
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 5,
+            "organismId": 41
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 42
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 43
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 44
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 6,
+            "organismId": 45
+        },
+        {
+            "birthTurn": 2,
+            "deathTurn": 8,
+            "organismId": 46
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 9,
+            "organismId": 47
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 9,
+            "organismId": 48
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 6,
+            "organismId": 49
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": -1,
+            "organismId": 50
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 5,
+            "organismId": 51
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 9,
+            "organismId": 52
+        },
+        {
+            "birthTurn": 3,
+            "deathTurn": 7,
+            "organismId": 53
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": -1,
+            "organismId": 54
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": -1,
+            "organismId": 55
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": -1,
+            "organismId": 56
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": -1,
+            "organismId": 57
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 58
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 59
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 60
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 61
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 62
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 63
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 7,
+            "organismId": 64
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 6,
+            "organismId": 65
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 66
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 67
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 68
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 6,
+            "organismId": 69
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 70
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 71
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 72
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 73
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 74
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 75
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 8,
+            "organismId": 76
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 77
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 78
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 79
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 9,
+            "organismId": 80
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 81
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 6,
+            "organismId": 82
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 83
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 84
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 85
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 86
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 87
+        },
+        {
+            "birthTurn": 5,
+            "deathTurn": 11,
+            "organismId": 88
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 89
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 90
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 91
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 92
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 93
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 94
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 95
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 96
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 97
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 98
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 99
+        },
+        {
+            "birthTurn": 7,
+            "deathTurn": -1,
+            "organismId": 100
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": 9,
+            "organismId": 101
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": 9,
+            "organismId": 102
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 103
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 104
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 105
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 106
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 107
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": 11,
+            "organismId": 108
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 109
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 110
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 111
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 112
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 113
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 114
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 115
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 116
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 117
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": 9,
+            "organismId": 118
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 119
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 120
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": 11,
+            "organismId": 121
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 122
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 123
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 124
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 125
+        },
+        {
+            "birthTurn": 8,
+            "deathTurn": -1,
+            "organismId": 126
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": 10,
+            "organismId": 127
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": 10,
+            "organismId": 128
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 129
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": 10,
+            "organismId": 130
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 131
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 132
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 133
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 134
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 135
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 136
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 137
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 138
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 139
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 140
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 141
+        },
+        {
+            "birthTurn": 9,
+            "deathTurn": -1,
+            "organismId": 142
+        },
+        {
+            "birthTurn": 10,
+            "deathTurn": -1,
+            "organismId": 143
+        },
+        {
+            "birthTurn": 10,
+            "deathTurn": -1,
+            "organismId": 144
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 145
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 146
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 147
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 148
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 149
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 150
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 151
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 152
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 153
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 154
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 155
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 156
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 157
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 158
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 159
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 160
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 161
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 162
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 163
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 164
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 165
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 166
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 167
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 168
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 169
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 170
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 171
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 172
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 173
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 174
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 175
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 176
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 177
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 178
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 179
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 180
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 181
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 182
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 183
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 184
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 185
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 186
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 187
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 188
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 189
+        },
+        {
+            "birthTurn": 11,
+            "deathTurn": -1,
+            "organismId": 190
+        }
+    ],
+    "organismStaticId": 190,
+    "organisms": [
+        {
+            "ancestorsId": [],
+            "id": 27,
+            "liveLength": 8,
+            "positionX": 9,
+            "positionY": 2,
+            "power": 20,
+            "species": "woolf",
+            "turnsToReproduce": 4
+        },
+        {
+            "ancestorsId": [
+                6,
+                54
+            ],
+            "id": 148,
+            "liveLength": 10,
+            "positionX": 3,
+            "positionY": 6,
+            "power": 3,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                5,
+                55
+            ],
+            "id": 147,
+            "liveLength": 10,
+            "positionX": 1,
+            "positionY": 3,
+            "power": 3,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                4,
+                56
+            ],
+            "id": 146,
+            "liveLength": 10,
+            "positionX": 3,
+            "positionY": 3,
+            "power": 3,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                3,
+                57
+            ],
+            "id": 145,
+            "liveLength": 10,
+            "positionX": 4,
+            "positionY": 4,
+            "power": 3,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                3
+            ],
+            "id": 57,
+            "liveLength": 4,
+            "positionX": 4,
+            "positionY": 5,
+            "power": 9,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                4
+            ],
+            "id": 56,
+            "liveLength": 4,
+            "positionX": 2,
+            "positionY": 4,
+            "power": 9,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                5
+            ],
+            "id": 55,
+            "liveLength": 4,
+            "positionX": 2,
+            "positionY": 3,
+            "power": 9,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                6
+            ],
+            "id": 54,
+            "liveLength": 4,
+            "positionX": 2,
+            "positionY": 6,
+            "power": 9,
+            "species": "sheep",
+            "turnsToReproduce": 6
+        },
+        {
+            "ancestorsId": [
+                29
+            ],
+            "id": 190,
+            "liveLength": 12,
+            "positionX": 15,
+            "positionY": 2,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 4
+        },
+        {
+            "ancestorsId": [
+                29,
+                50
+            ],
+            "id": 189,
+            "liveLength": 12,
+            "positionX": 12,
+            "positionY": 3,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 4
+        },
+        {
+            "ancestorsId": [
+                23,
+                53,
+                58
+            ],
+            "id": 188,
+            "liveLength": 6,
+            "positionX": 6,
+            "positionY": 4,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59
+            ],
+            "id": 187,
+            "liveLength": 6,
+            "positionX": 3,
+            "positionY": 2,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                26,
+                30,
+                49,
+                60
+            ],
+            "id": 186,
+            "liveLength": 6,
+            "positionX": 2,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                62
+            ],
+            "id": 185,
+            "liveLength": 6,
+            "positionX": 7,
+            "positionY": 5,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                7,
+                46,
+                63
+            ],
+            "id": 184,
+            "liveLength": 6,
+            "positionX": 0,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                10,
+                43,
+                66
+            ],
+            "id": 183,
+            "liveLength": 6,
+            "positionX": 7,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                40,
+                68
+            ],
+            "id": 182,
+            "liveLength": 6,
+            "positionX": 15,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                19,
+                36,
+                72
+            ],
+            "id": 181,
+            "liveLength": 6,
+            "positionX": 14,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                17,
+                81
+            ],
+            "id": 180,
+            "liveLength": 6,
+            "positionX": 13,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                83
+            ],
+            "id": 179,
+            "liveLength": 6,
+            "positionX": 12,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                11,
+                84
+            ],
+            "id": 178,
+            "liveLength": 6,
+            "positionX": 12,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                8,
+                87
+            ],
+            "id": 177,
+            "liveLength": 6,
+            "positionX": 1,
+            "positionY": 7,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                7,
+                88
+            ],
+            "id": 176,
+            "liveLength": 6,
+            "positionX": 2,
+            "positionY": 2,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                25,
+                76,
+                90
+            ],
+            "id": 175,
+            "liveLength": 6,
+            "positionX": 5,
+            "positionY": 0,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                26,
+                30,
+                49,
+                60,
+                94
+            ],
+            "id": 174,
+            "liveLength": 6,
+            "positionX": 0,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                23,
+                53,
+                58,
+                96
+            ],
+            "id": 173,
+            "liveLength": 6,
+            "positionX": 6,
+            "positionY": 3,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                97
+            ],
+            "id": 172,
+            "liveLength": 6,
+            "positionX": 4,
+            "positionY": 3,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                29,
+                50,
+                98
+            ],
+            "id": 171,
+            "liveLength": 12,
+            "positionX": 11,
+            "positionY": 0,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 4
+        },
+        {
+            "ancestorsId": [
+                9,
+                86,
+                103
+            ],
+            "id": 170,
+            "liveLength": 6,
+            "positionX": 10,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                83,
+                106
+            ],
+            "id": 169,
+            "liveLength": 6,
+            "positionX": 10,
+            "positionY": 2,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                17,
+                81,
+                107
+            ],
+            "id": 168,
+            "liveLength": 6,
+            "positionX": 11,
+            "positionY": 1,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                20,
+                35,
+                73,
+                112
+            ],
+            "id": 167,
+            "liveLength": 6,
+            "positionX": 15,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                19,
+                36,
+                72,
+                113
+            ],
+            "id": 166,
+            "liveLength": 6,
+            "positionX": 11,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                18,
+                37,
+                71,
+                114
+            ],
+            "id": 165,
+            "liveLength": 6,
+            "positionX": 3,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                40,
+                68,
+                115
+            ],
+            "id": 164,
+            "liveLength": 6,
+            "positionX": 13,
+            "positionY": 7,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                10,
+                43,
+                66,
+                116
+            ],
+            "id": 163,
+            "liveLength": 6,
+            "positionX": 8,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                7,
+                46,
+                63,
+                117
+            ],
+            "id": 162,
+            "liveLength": 6,
+            "positionX": 0,
+            "positionY": 1,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                7,
+                46,
+                119
+            ],
+            "id": 161,
+            "liveLength": 6,
+            "positionX": 0,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                9,
+                44,
+                120
+            ],
+            "id": 160,
+            "liveLength": 6,
+            "positionX": 10,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                19,
+                36,
+                124
+            ],
+            "id": 159,
+            "liveLength": 6,
+            "positionX": 12,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                20,
+                35,
+                125
+            ],
+            "id": 158,
+            "liveLength": 6,
+            "positionX": 13,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                21,
+                34,
+                126
+            ],
+            "id": 157,
+            "liveLength": 6,
+            "positionX": 10,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59,
+                95,
+                129
+            ],
+            "id": 156,
+            "liveLength": 6,
+            "positionX": 2,
+            "positionY": 1,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                75,
+                91,
+                133
+            ],
+            "id": 155,
+            "liveLength": 6,
+            "positionX": 8,
+            "positionY": 2,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                76,
+                90,
+                134
+            ],
+            "id": 154,
+            "liveLength": 6,
+            "positionX": 6,
+            "positionY": 2,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                23,
+                77,
+                89,
+                135
+            ],
+            "id": 153,
+            "liveLength": 6,
+            "positionX": 4,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                62,
+                138
+            ],
+            "id": 152,
+            "liveLength": 6,
+            "positionX": 10,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                26,
+                30,
+                49,
+                60,
+                139
+            ],
+            "id": 151,
+            "liveLength": 6,
+            "positionX": 1,
+            "positionY": 5,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59,
+                140
+            ],
+            "id": 150,
+            "liveLength": 6,
+            "positionX": 4,
+            "positionY": 0,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                141
+            ],
+            "id": 149,
+            "liveLength": 6,
+            "positionX": 5,
+            "positionY": 2,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                31,
+                48,
+                61
+            ],
+            "id": 144,
+            "liveLength": 5,
+            "positionX": 5,
+            "positionY": 3,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                99
+            ],
+            "id": 143,
+            "liveLength": 5,
+            "positionX": 7,
+            "positionY": 6,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47
+            ],
+            "id": 142,
+            "liveLength": 4,
+            "positionX": 8,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                25,
+                52
+            ],
+            "id": 141,
+            "liveLength": 4,
+            "positionX": 5,
+            "positionY": 1,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59
+            ],
+            "id": 140,
+            "liveLength": 4,
+            "positionX": 3,
+            "positionY": 1,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                26,
+                30,
+                49,
+                60
+            ],
+            "id": 139,
+            "liveLength": 4,
+            "positionX": 0,
+            "positionY": 5,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                62
+            ],
+            "id": 138,
+            "liveLength": 4,
+            "positionX": 9,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                11,
+                42,
+                67
+            ],
+            "id": 137,
+            "liveLength": 4,
+            "positionX": 14,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                17,
+                38,
+                70
+            ],
+            "id": 136,
+            "liveLength": 4,
+            "positionX": 14,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                23,
+                77,
+                89
+            ],
+            "id": 135,
+            "liveLength": 4,
+            "positionX": 4,
+            "positionY": 6,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                76,
+                90
+            ],
+            "id": 134,
+            "liveLength": 4,
+            "positionX": 7,
+            "positionY": 1,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                75,
+                91
+            ],
+            "id": 133,
+            "liveLength": 4,
+            "positionX": 8,
+            "positionY": 3,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                62,
+                92
+            ],
+            "id": 132,
+            "liveLength": 4,
+            "positionX": 6,
+            "positionY": 6,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                25,
+                31,
+                48,
+                61,
+                93
+            ],
+            "id": 131,
+            "liveLength": 4,
+            "positionX": 5,
+            "positionY": 6,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59,
+                95
+            ],
+            "id": 129,
+            "liveLength": 4,
+            "positionX": 2,
+            "positionY": 0,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                21,
+                34
+            ],
+            "id": 126,
+            "liveLength": 3,
+            "positionX": 9,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                20,
+                35
+            ],
+            "id": 125,
+            "liveLength": 3,
+            "positionX": 14,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                19,
+                36
+            ],
+            "id": 124,
+            "liveLength": 3,
+            "positionX": 11,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                17,
+                38
+            ],
+            "id": 123,
+            "liveLength": 3,
+            "positionX": 15,
+            "positionY": 1,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                13,
+                40
+            ],
+            "id": 122,
+            "liveLength": 3,
+            "positionX": 13,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                9,
+                44
+            ],
+            "id": 120,
+            "liveLength": 3,
+            "positionX": 9,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                7,
+                46
+            ],
+            "id": 119,
+            "liveLength": 3,
+            "positionX": 0,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                7,
+                46,
+                63
+            ],
+            "id": 117,
+            "liveLength": 3,
+            "positionX": 1,
+            "positionY": 0,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                10,
+                43,
+                66
+            ],
+            "id": 116,
+            "liveLength": 3,
+            "positionX": 8,
+            "positionY": 1,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                40,
+                68
+            ],
+            "id": 115,
+            "liveLength": 3,
+            "positionX": 13,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                18,
+                37,
+                71
+            ],
+            "id": 114,
+            "liveLength": 3,
+            "positionX": 2,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                19,
+                36,
+                72
+            ],
+            "id": 113,
+            "liveLength": 3,
+            "positionX": 12,
+            "positionY": 6,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                20,
+                35,
+                73
+            ],
+            "id": 112,
+            "liveLength": 3,
+            "positionX": 15,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                21,
+                34,
+                74
+            ],
+            "id": 111,
+            "liveLength": 3,
+            "positionX": 12,
+            "positionY": 7,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                21,
+                78
+            ],
+            "id": 110,
+            "liveLength": 3,
+            "positionX": 9,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                19,
+                79
+            ],
+            "id": 109,
+            "liveLength": 3,
+            "positionX": 10,
+            "positionY": 5,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                17,
+                81
+            ],
+            "id": 107,
+            "liveLength": 3,
+            "positionX": 12,
+            "positionY": 2,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                13,
+                83
+            ],
+            "id": 106,
+            "liveLength": 3,
+            "positionX": 11,
+            "positionY": 2,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                11,
+                84
+            ],
+            "id": 105,
+            "liveLength": 3,
+            "positionX": 14,
+            "positionY": 1,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                10,
+                85
+            ],
+            "id": 104,
+            "liveLength": 3,
+            "positionX": 8,
+            "positionY": 4,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                9,
+                86
+            ],
+            "id": 103,
+            "liveLength": 3,
+            "positionX": 11,
+            "positionY": 3,
+            "power": 0,
+            "species": "grass",
+            "turnsToReproduce": 3
+        },
+        {
+            "ancestorsId": [
+                29
+            ],
+            "id": 100,
+            "liveLength": 8,
+            "positionX": 15,
+            "positionY": 3,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47
+            ],
+            "id": 99,
+            "liveLength": 2,
+            "positionX": 8,
+            "positionY": 5,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                29,
+                50
+            ],
+            "id": 98,
+            "liveLength": 8,
+            "positionX": 12,
+            "positionY": 1,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 4
+        },
+        {
+            "ancestorsId": [
+                25,
+                52
+            ],
+            "id": 97,
+            "liveLength": 2,
+            "positionX": 4,
+            "positionY": 2,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                23,
+                53,
+                58
+            ],
+            "id": 96,
+            "liveLength": 2,
+            "positionX": 5,
+            "positionY": 4,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                52,
+                59
+            ],
+            "id": 95,
+            "liveLength": 2,
+            "positionX": 3,
+            "positionY": 0,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                26,
+                30,
+                49,
+                60
+            ],
+            "id": 94,
+            "liveLength": 2,
+            "positionX": 0,
+            "positionY": 6,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                25,
+                31,
+                48,
+                61
+            ],
+            "id": 93,
+            "liveLength": 2,
+            "positionX": 5,
+            "positionY": 5,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                47,
+                62
+            ],
+            "id": 92,
+            "liveLength": 2,
+            "positionX": 7,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                24,
+                32,
+                75
+            ],
+            "id": 91,
+            "liveLength": 2,
+            "positionX": 7,
+            "positionY": 4,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                25,
+                76
+            ],
+            "id": 90,
+            "liveLength": 2,
+            "positionX": 6,
+            "positionY": 1,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 2
+        },
+        {
+            "ancestorsId": [
+                23,
+                77
+            ],
+            "id": 89,
+            "liveLength": 2,
+            "positionX": 5,
+            "positionY": 7,
+            "power": 0,
+            "species": "dandelion",
+            "turnsToReproduce": 1
+        },
+        {
+            "ancestorsId": [
+                29
+            ],
+            "id": 50,
+            "liveLength": 4,
+            "positionX": 13,
+            "positionY": 2,
+            "power": 0,
+            "species": "toadstool",
+            "turnsToReproduce": 4
+        }
+    ],
+    "turn": 12
+}
