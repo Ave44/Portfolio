@@ -4,10 +4,9 @@ C++ ecosystem simulation is an application that allows user to set up simple eco
 
 ## Table of Contents
 
-- [Starting](#Starting)
-- [Hotkeys](#Hotkeys)
-- [Interface](#Interface)
-- [Structure](#Structure)
+1. [Starting](#Starting)
+1. [Hotkeys](#Hotkeys)
+1. [Interface](#Interface)
 
 ## Starting
 
@@ -19,16 +18,21 @@ After cloning repository find file `Simulation.exe` and simply double click it t
 
 **l** - load saved simulation status
 
-**p** - print in console all organisms statistics
+**p** - print in console all organisms ancestry lineages
 
 ## Interface
 
 ![Application](https://github.com/Ave44/Portfolio/blob/main/images/CppEcosystemSimulation/Application.png?raw=true)
 
-Interface consists of two main parts - simulation statistics and simulation map.
+Interface consists of two main parts - simulation statistics and simulation map. Additionally border around them is modular, hence is entirely drawn using only three base images _(border segment, border corner and segment-corner connector)_. This approach provides full flexibility in terms of the size of each interface component.
+
+<sub><sup>_(all graphics are original and hand drawn)_</sup></sub>
 
 ### Statistics
 
+- **Turn counter** - shows current simulation epoch
+- **FPS counter** - shows applications current frame rate
+
 ### Simulation map
 
-## Structure
+Size of the simulation map is determined in file `constants.h` and can be easily adjusted due to fact that application was created with responsiveness in mind. Values such as `WORLD_WIDTH`, `WORLD_HEIGHT` and `TILE_SIZE` are used to redefine corresponding aspects of the map.
