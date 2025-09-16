@@ -10,7 +10,7 @@ Music service react app is an application where you can store and browse your fa
 
 Vue genealogical service is an application for creating and managing genealogical trees, chatting with other users and searching for common ancestors among other users.
 
-## React tower defense game 🎮
+## React tower defence game 🎮
 
 React tower defense game is an application where you can play awesome tower defense game! Additionally you can edit the game, create new levels or chat with other users.
 
