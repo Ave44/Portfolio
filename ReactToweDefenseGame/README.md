@@ -47,7 +47,7 @@ React tower defense game is an application where you can playing awesome tower d
 
 ### Game
 
-main game view, player can see there his/hers health points, gold, number of current wave, and most importantly can play by placing towers on selected tiles to fight off hordes of enemies! Towers can be upgraded into stronger versions, or sold if plyer changes mind. Additionally player can see towers range by hovering over them. Game is won if player manages to survive all waves without loosing all health points.
+main game view, player can see there his/hers health points, gold, number of current wave, and most importantly can play by placing towers on selected tiles to fight off hordes of enemies! Towers can be upgraded into stronger versions, or sold if player changes mind. Additionally player can see towers range by hovering over them. Game is won if player manages to survive all waves without loosing all health points.
 
 ![Game1](https://github.com/Ave44/Portfolio/blob/main/images/ReactTowerDefenseGame/Game1.png?raw=true)
 ![Game2](https://github.com/Ave44/Portfolio/blob/main/images/ReactTowerDefenseGame/Game2.png?raw=true)
