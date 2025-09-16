@@ -12,7 +12,7 @@ Vue genealogical service is an application for creating and managing genealogica
 
 ## React tower defence game 🎮
 
-React tower defense game is an application where you can play awesome tower defense game! Additionally you can edit the game, create new levels or chat with other users.
+React tower defence game is an application where you can play awesome tower defence game! Additionally you can edit the game, create new levels or chat with other users.
 
 ## C++ ecosystem simulation 🐑
 
